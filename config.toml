@@ -1,0 +1,19 @@
+baseURL = 'https://main--glittery-sawine-a91db8.netlify.app'
+languageCode = 'en-us'
+title = 'Mochi Shrine'
+theme = 'hugo-starter-theme'
+
+[params]
+logo = '/Illustration.png'
+
+[menu]
+[[menu.main]]
+    identifier = 'about'
+    name = 'about meow' #name shows up as the link in the menu
+    url = '/about/'
+    weight = -10
+[[menu.main]]
+    identifier = 'store'
+    name = 'mochi merch'
+    url = 'https://amelielavender.etsy.com'
+    weight = -11
