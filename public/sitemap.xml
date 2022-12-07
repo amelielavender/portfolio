@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/about/</loc>
+    <lastmod>2022-09-14T17:53:03-04:00</lastmod>
+  </url><url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/posts/</loc>
+    <lastmod>2022-09-14T17:31:31-04:00</lastmod>
+  </url><url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/posts/test-post/</loc>
+    <lastmod>2022-09-14T17:31:31-04:00</lastmod>
+  </url><url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/</loc>
+    <lastmod>2022-09-14T16:19:46-04:00</lastmod>
+  </url><url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://main--glittery-sawine-a91db8.netlify.app/tags/</loc>
+  </url>
+</urlset>
