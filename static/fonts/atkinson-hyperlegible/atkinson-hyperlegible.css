@@ -1,0 +1,29 @@
+/* atkinson-hyperlegible-regular */
+@font-face {
+	font-family: Atkinson Hyperlegible;
+	font-style: normal;
+	font-weight: 400;
+	src: local("Atkinson Hyperlegible Regular"), local("AtkinsonHyperlegible-Regular"), url(atkinson-hyperlegible-regular.woff2) format("woff2");
+}
+/* atkinson-hyperlegible-italic */
+@font-face {
+	font-family: Atkinson Hyperlegible;
+	font-style: italic;
+	font-weight: 400;
+	src: local("Atkinson Hyperlegible Italic"), local("AtkinsonHyperlegible-Italic"), url(atkinson-hyperlegible-italic.woff2) format("woff2");
+}
+/* atkinson-hyperlegible-bold-italic */
+@font-face {
+	font-family: Atkinson Hyperlegible;
+	font-style: italic;
+	font-weight: 700;
+	src: local("Atkinson Hyperlegible Bold Italic"), local("AtkinsonHyperlegible-BoldItalic"), url(atkinson-hyperlegible-bold-italic.woff2) format("woff2");
+}
+/* atkinson-hyperlegible-bold */
+@font-face {
+	font-family: Atkinson Hyperlegible;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Atkinson Hyperlegible Bold"), local("AtkinsonHyperlegible-Bold"), url(atkinson-hyperlegible-bold.woff2) format("woff2");
+}
+
