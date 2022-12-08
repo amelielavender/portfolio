@@ -1,8 +1,6 @@
 /* LAYOUT */
-@font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Regular.ttf');
-}
+
+@import url("atkinson-hyperlegible/atkinson-hyperlegible.css");
 body {
   color: #333;
   font-size: 125%;
@@ -10,8 +8,8 @@ body {
   max-width: 45rem;
   padding: 1rem;
   margin: 0 auto;
-  font-family: 'Poppins';
-  background-color: antiquewhite;
+  font-family: 'Atkinsom Hyperlegible';
+  background-color: white;
 }
 
 .content {
@@ -19,7 +17,7 @@ body {
 }
 
 
-.funny > img {
+.logo > img {
   max-width: 40rem;
   max-height: 20rem;
   display: block;
@@ -35,8 +33,7 @@ body {
 .site-nav a {
   display: block;
   padding: 1rem;
-  text-decoration-style: wavy;
-  color:black;
+  color:red;
 }
 
 .site-nav .logo {
