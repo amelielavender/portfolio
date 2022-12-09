@@ -4,7 +4,7 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-logo = 'logo1.png'
+logo = '/logo1.png'
 
 [menu]
 [[menu.main]]
