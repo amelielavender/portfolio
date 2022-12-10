@@ -1,6 +1,6 @@
 /* LAYOUT */
 
-@import url("atkinson-hyperlegible/atkinson-hyperlegible.css");
+@import url("/fonts/atkinson-hyperlegible/atkinson-hyperlegible.css");
 body {
   color: #333;
   font-size: 125%;

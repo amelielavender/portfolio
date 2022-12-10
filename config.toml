@@ -4,16 +4,23 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-logo = '/logo1.png'
+    logo = '/logo1.png'
+[params.links]
+    twitter = 'https://twitter.com/amelielavender'
+    twitch = ''
+    tumblr = ''
+    email = 'mailto:lavenderamelie@gmail.com'
+    kofi = ''
+    github = ''
 
 [menu]
 [[menu.main]]
     identifier = 'about'
     name = 'about' #name shows up as the link in the menu
-    url = '/about/'
-    weight = -10
+    url = '/about/' #relative link
+    weight = -10 #left to right order, ascending more to the right
 [[menu.main]]
     identifier = 'etsy shop'
     name = 'etsy shop'
     url = 'https://amelielavender.etsy.com'
-    weight = -11
+    weight = 100
