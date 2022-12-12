@@ -10,7 +10,7 @@ theme = 'hugo-starter-theme'
     twitch = ''
     tumblr = ''
     email = 'mailto:lavenderamelie@gmail.com'
-    kofi = ''
+    kofi = 'https://ko-fi.com/amelie'
     github = ''
 
 [menu]
