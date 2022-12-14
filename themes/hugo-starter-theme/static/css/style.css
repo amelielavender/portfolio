@@ -18,12 +18,11 @@ body {
 
 
 .logo > img {
-  max-width: 40rem;
-  max-height: 20rem;
-  display: block;
+  max-width: 100%;
   min-width: 1rem;
   min-height: 1rem;
   margin: 0 auto;
+  display: block;
 }
 
 div.portrait {
