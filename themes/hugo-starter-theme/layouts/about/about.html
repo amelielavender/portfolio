@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{ with .Site.Params.authorPortrait }}
+<div class="portrait">
+    <img src ="{{ . }}" />
+</div>
+{{ end }}
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

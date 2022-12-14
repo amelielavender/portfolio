@@ -3,6 +3,7 @@ title: "About"
 date: 2022-09-14T17:53:03-04:00
 draft: false
 type: about
+layout: about
 ---
 ## hello!
 

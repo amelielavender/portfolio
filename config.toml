@@ -5,6 +5,7 @@ theme = 'hugo-starter-theme'
 
 [params]
     logo = '/logo1.png'
+    authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
     twitch = ''
