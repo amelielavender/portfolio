@@ -9,7 +9,7 @@ body {
   max-width: 80%; 
   padding: 1rem;
   margin: 0 auto;
-  font-family: 'Atkinsom Hyperlegible';
+  font-family: Atkinson Hyperlegible;
   background-color: floralwhite;
 }
 
@@ -17,12 +17,12 @@ body {
   border: 1px solid gray;
   border-left: 0;
   border-right: 0;
-  }
+}
   
 h2 {
   box-shadow: inset 0 -16px 0 0px #e1d0ff;
   display: inline-block;
-  }
+}
 
 .logo > img {
   max-width: 100%;
