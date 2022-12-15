@@ -1,6 +1,7 @@
 /* LAYOUT */
 
 @import url("/fonts/atkinson-hyperlegible/atkinson-hyperlegible.css");
+
 body {
   color: #333;
   font-size: 125%;
@@ -12,10 +13,16 @@ body {
   background-color: floralwhite;
 }
 
-.content {
-  margin: 0 10rem 15rem 10rem;
-}
-
+.site-header {
+  border: 1px solid gray;
+  border-left: 0;
+  border-right: 0;
+  }
+  
+h2 {
+  box-shadow: inset 0 -16px 0 0px #e1d0ff;
+  display: inline-block;
+  }
 
 .logo > img {
   max-width: 100%;
@@ -26,20 +33,27 @@ body {
 }
 
 div.portrait {
-  margin-right: 2rem;
-  border: solid 1px lightgray;
-  padding: .5rem;
+  margin: 30px;
   float: left;
+  box-shadow: 20px 15px 0px 0px #e1d0ff;
+  border: 2px dotted black;
 }
 
 .portrait > img {
     display: block;
+    max-width: 100%;
 }
 
+.about {
+  display: table;
+}
+
+
 footer {
-  margin: auto 10rem;
+  margin: auto 10%;
   border-top: 1px solid gray;
   padding: 2rem;
+  clear: both;
 }
 
 
@@ -53,6 +67,7 @@ footer {
   display: block;
   padding: 1rem;
   color:red;
+  text-transform: capitalize;
 }
 
 .site-nav .logo {
@@ -81,6 +96,7 @@ ul.main-menu {
     padding: 0.5rem;
   }
 }
+
 
 /* LISTS */
 

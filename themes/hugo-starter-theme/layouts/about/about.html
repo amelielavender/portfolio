@@ -3,9 +3,9 @@
 {{ with .Site.Params.authorPortrait }}
 <div class="portrait">
     <img src ="{{ . }}" />
-</div>
+</div> 
 {{ end }}
-
+<div class="about">
 {{ .Content }}
-
+</div>
 {{ partial "footer.html" . }}
