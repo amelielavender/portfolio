@@ -6,22 +6,26 @@ body {
   color: #333;
   font-size: 125%;
   line-height: 1.5;
-  max-width: 80%; 
-  padding: 1rem;
+  max-width: 75%; 
   margin: 0 auto;
   font-family: Atkinson Hyperlegible;
   background-color: floralwhite;
 }
 
+.wrapper {
+  height: 100%;
+}
+
 .site-header {
-  border: 1px solid gray;
+  border: 1px solid #bb8588;
   border-left: 0;
   border-right: 0;
 }
   
 h2 {
-  box-shadow: inset 0 -16px 0 0px #e1d0ff;
+  box-shadow: inset 0 -16px 0 0px #bb8588;
   display: inline-block;
+  color: #4d6a6d;
 }
 
 .logo > img {
@@ -35,7 +39,7 @@ h2 {
 div.portrait {
   margin: 30px;
   float: left;
-  box-shadow: 20px 15px 0px 0px #e1d0ff;
+  box-shadow: 20px 15px 0px 0px #bb8588;
   border: 2px dotted black;
 }
 
@@ -50,9 +54,7 @@ div.portrait {
 
 
 footer {
-  margin: auto 10%;
   border-top: 1px solid gray;
-  padding: 2rem;
   clear: both;
 }
 
@@ -66,7 +68,7 @@ footer {
 .site-nav a {
   display: block;
   padding: 1rem;
-  color:red;
+  color: #254441;
   text-transform: capitalize;
 }
 
