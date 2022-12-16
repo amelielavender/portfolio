@@ -6,7 +6,7 @@ body {
   color: #333;
   font-size: 125%;
   line-height: 1.5;
-  max-width: 75%; 
+  max-width: 66%; 
   margin: 0 auto;
   font-family: Atkinson Hyperlegible;
   background-color: floralwhite;
@@ -58,6 +58,13 @@ footer {
   clear: both;
 }
 
+footer a:link {
+  color: #333
+  }
+
+footer a:visited {
+  color: #888;
+  }
 
 /* NAVIGATION */
 
