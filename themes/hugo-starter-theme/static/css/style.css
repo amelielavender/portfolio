@@ -27,11 +27,8 @@ body {
 }
   
 h1 {
-<<<<<<< HEAD
-  font-weight: light;
-=======
+  font-weight: 400;
   text-transform: uppercase;
->>>>>>> main
 }
 
 h2 {
