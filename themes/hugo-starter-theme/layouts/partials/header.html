@@ -7,7 +7,7 @@
 
     <a href="/">
     <div class="wrapper">
-  <div class="logo"><img src="{{.Site.Params.Logo}}"></div>
+        <div class="logo" style="background-image: url('{{ .Site.Params.Logo }}');"></div>
 
     </a>
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
