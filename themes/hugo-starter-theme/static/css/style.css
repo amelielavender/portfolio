@@ -109,7 +109,9 @@ ul.main-menu {
     align-items: center;
     padding: 0;
   }
-
+  body {
+    min-width: 100%;
+  }
   .logo {
       height: 5rem;
   }
