@@ -8,11 +8,11 @@ theme = 'hugo-starter-theme'
     authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
-    twitch = ''
+    twitch = 'https://twitch.tv/amelav'
     tumblr = ''
     email = 'mailto:lavenderamelie@gmail.com'
     kofi = 'https://ko-fi.com/amelie'
-    github = ''
+    github = 'https://github.com/amelielavender/portfolio'
 
 [menu]
 [[menu.main]]
