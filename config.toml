@@ -4,11 +4,11 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-    logo = '/logo1.png'
+    logo = '/logo collage2.png'
     authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
-    twitch = 'https://twitch.tv/amelav'
+    twitch = '' 
     tumblr = ''
     email = 'mailto:lavenderamelie@gmail.com'
     kofi = 'https://ko-fi.com/amelie'
