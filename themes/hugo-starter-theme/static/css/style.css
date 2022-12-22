@@ -61,6 +61,13 @@ div.portrait {
   display: table;
 }
 
+.box {
+    width: 33.3%;
+    float: left;
+}
+div.img > img[itemprop="thumbnail"] {
+  width: 100%;
+}
 
 footer {
   border-top: 1px solid #cfbabb;
