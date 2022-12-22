@@ -61,10 +61,6 @@ div.portrait {
   display: table;
 }
 
-.box {
-    width: 33.3%;
-    float: left;
-}
 div.img > img[itemprop="thumbnail"] {
   width: 100%;
 }

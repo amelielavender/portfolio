@@ -27,6 +27,6 @@ theme = 'hugo-starter-theme'
     weight = 100
 [[menu.main]]
     identifier = 'comic'
-    name = 'comics'
-    url = '/comics/'
+    name = 'tomorrow mourning'
+    url = '/comics/tomorrow-mourning'
     weight = 1
