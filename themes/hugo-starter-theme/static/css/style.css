@@ -21,7 +21,7 @@ body {
 }
 
 .site-header {
-  border: 1px solid #bb8588;
+  border: 1px solid #cfbabb;
   border-left: 0;
   border-right: 0;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  box-shadow: inset 0 -16px 0 0px #bb8588;
+  box-shadow: inset 0 -16px 0 0px #d8b1b7;
   display: inline-block;
   color: #4d6a6d;
 }
@@ -48,8 +48,8 @@ h2 {
 div.portrait {
   margin: 30px;
   float: left;
-  box-shadow: 20px 15px 0px 0px #bb8588;
-  border: 2px dotted black;
+  box-shadow: 20px 15px 0px 0px #cfbabb;
+  border: 2px dotted #c18188;
 }
 
 .portrait > img {
@@ -63,7 +63,7 @@ div.portrait {
 
 
 footer {
-  border-top: 1px solid #bb8588;
+  border-top: 1px solid #cfbabb;
   clear: both;
 }
 
@@ -109,7 +109,9 @@ ul.main-menu {
     align-items: center;
     padding: 0;
   }
-
+  body {
+    min-width: 100%;
+  }
   .logo {
       height: 5rem;
   }
@@ -117,7 +119,6 @@ ul.main-menu {
     padding: 0.5rem;
   }
 }
-
 
 /* LISTS */
 

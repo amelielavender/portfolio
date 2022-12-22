@@ -4,7 +4,7 @@ date: 2022-12-12T16:24:40-05:00
 lastmod: 
 ---
 # Before you contact
-## Before requesting a commission slot, have these items prepared:
+## Before requesting a commission, have these items prepared:
 1. Reference images: At least two is preferred 
     * Must be clear and reasonably sized
     * If no references exist, make sure the written description is clear, concise, and remains unambiguous throughout
