@@ -9,7 +9,7 @@ body {
   max-width: 66%; 
   margin: 0 auto;
   font-family: Atkinson Hyperlegible;
-  background-color: floralwhite;
+  background-color: white;   
 }
 
 .wrapper {
@@ -29,12 +29,13 @@ body {
 h1 {
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 h2 {
   box-shadow: inset 0 -16px 0 0px #d8b1b7;
   display: inline-block;
-  color: #4d6a6d;
+  color: 
 }
 
 .logo {
@@ -48,8 +49,7 @@ h2 {
 div.portrait {
   margin: 30px;
   float: left;
-  box-shadow: 20px 15px 0px 0px #cfbabb;
-  border: 2px dotted #c18188;
+  border: 1px solid #c18188;
 }
 
 .portrait > img {
