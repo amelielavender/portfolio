@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "terms of service"
 date: 2022-12-12T16:24:40-05:00
 lastmod: 
 ---
