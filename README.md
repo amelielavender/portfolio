@@ -2,6 +2,6 @@
 
 made with hugo, built and hosted with netlify. featuring other cool stuff listed here:
 
-* ericmurphyxyz/hugo-starter-theme
-* liwenyip/hugo-easy-gallery
-* googlefonts/atkinson-hyperlegible
+* [ericmurphyxyz/hugo-starter-theme](https://github.com/ericmurphyxyz/hugo-starter-theme)
+* [liwenyip/hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
+* [googlefonts/atkinson-hyperlegible](googlefonts/atkinson-hyperlegible)
