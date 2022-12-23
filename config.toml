@@ -16,12 +16,17 @@ theme = 'hugo-starter-theme'
 
 [menu]
 [[menu.main]]
-    identifier = 'about'
+    identifier = 'about' #ids links in case two entries have same name
     name = 'about' #name shows up as the link in the menu
     url = '/about/' #relative link
-    weight = -10 #left to right order, ascending more to the right
+    weight = 0 #sort links by weight ascending.
 [[menu.main]]
     identifier = 'etsy shop'
     name = 'etsy shop'
     url = 'https://amelielavender.etsy.com'
     weight = 100
+[[menu.main]]
+    identifier = 'comic'
+    name = 'comics'
+    url = '/comics/'
+    weight = 1
