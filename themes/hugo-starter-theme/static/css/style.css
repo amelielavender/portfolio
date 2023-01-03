@@ -90,7 +90,8 @@ footer a:visited {
   display: block;
   padding: 1rem;
   color: #254441;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-family: Barlow Condensed;
 }
 
 .site-nav .home {
