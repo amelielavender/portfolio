@@ -6,4 +6,4 @@ made with hugo, built and hosted with netlify. featuring other cool stuff listed
 * [liwenyip/hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
 * [googlefonts/atkinson-hyperlegible](https://github.com/googlefonts/atkinson-hyperlegible)[^1]
 
-[^1] site doesn't use remote fonts, google repo linked for reference only.
+[^1]: site doesn't use remote fonts, google repo linked for reference only.
