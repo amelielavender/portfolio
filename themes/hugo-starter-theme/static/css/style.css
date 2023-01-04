@@ -11,6 +11,9 @@ body {
   margin: 0 auto;
   font-family: Atkinson Hyperlegible;
   background-color: white;   
+  background-position: center;
+  background-image: url("/background.png");
+  background-size: 400px;
 }
 
 .wrapper {
@@ -92,6 +95,7 @@ footer a:visited {
   color: #254441;
   text-transform: uppercase;
   font-family: Barlow Condensed;
+  letter-spacing: 2px;
 }
 
 .site-nav .home {
@@ -117,6 +121,7 @@ ul.main-menu {
   }
   body {
     min-width: 100%;
+    background-image:none;
   }
   .logo {
       height: 5rem;
