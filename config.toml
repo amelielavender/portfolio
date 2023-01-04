@@ -4,7 +4,7 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-    logo = '/logo collage2.png'
+    logo = '/test.png'
     authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
