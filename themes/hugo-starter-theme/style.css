@@ -1,0 +1,141 @@
+/* LAYOUT */
+
+@import url("/fonts/atkinson-hyperlegible/atkinson-hyperlegible.css");
+@import url("/fonts/barlow-condensed/barlow-condensed.css");
+
+body {
+  color: #333;
+  font-size: 125%;
+  line-height: 1.5;
+  max-width: 66%; 
+  margin: 0 auto;
+  font-family: Atkinson Hyperlegible;
+  background-color: white;   
+  background-position: center;
+  background-image: url("/background.png");
+  background-size: 400px;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  height: 100%;
+  background-color: white;
+  border: 20px solid white;
+}
+
+.site-header {
+  border: 1px solid #cfbabb;
+  border-left: 0;
+  border-right: 0;
+}
+  
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-family: Barlow Condensed;
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: Barlow Condensed;
+  font-weight: 300;
+}
+
+.logo {
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  }
+
+div.portrait {
+  margin: 30px;
+  float: left;
+  border: 1px solid #c18188;
+}
+
+.portrait > img {
+    display: block;
+    max-width: 100%;
+}
+
+.about {
+  display: table;
+}
+
+div.img > img[itemprop="thumbnail"] {
+  width: 100%;
+}
+
+footer {
+  border-top: 1px solid #cfbabb;
+  clear: both;
+}
+
+footer a:link {
+  color: #333
+  }
+
+footer a:visited {
+  color: #888;
+  }
+
+/* NAVIGATION */
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav a {
+  display: block;
+  padding: 1rem;
+  color: #254441;
+  text-transform: uppercase;
+  font-family: Barlow Condensed;
+  letter-spacing: 2px;
+}
+
+.site-nav .home {
+  font-weight: bold;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+ul.main-menu {
+  padding: 0;
+}
+
+@media screen and (max-width: 48rem) {
+  .site-nav,
+  .main-menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  body {
+    min-width: 100%;
+    background-image:none;
+  }
+  .logo {
+      height: 5rem;
+  }
+  .site-nav a {
+    padding: 0.5rem;
+  }
+}
+
+/* LISTS */
+
+.post-snippet {
+  margin-bottom: 1rem;
+}
+
+.post-snippet h3 {
+  margin-bottom: 0.25rem;
+}
