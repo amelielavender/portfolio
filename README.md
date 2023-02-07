@@ -8,7 +8,7 @@ made with hugo, built and hosted with netlify. featuring other cool stuff listed
 
 # licenses and blah
 
-my artwork is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. !(https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
+my artwork is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png">
 feel free to redistribute the art but please leave signatures attached and/or credit me, thank you!!
 
 you may use the css portion, including the background image, any way you wish. see /LICENSE
