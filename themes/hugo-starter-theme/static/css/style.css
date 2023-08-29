@@ -20,7 +20,7 @@ body {
 .wrapper {
   height: 100%;
   background-color: white;
-  border: 20px solid white;
+  padding: 20px;
 }
 
 .site-header {
@@ -45,14 +45,14 @@ h3 {
 }
 
 .content {
-  padding: 4% 10%;
+  padding: 0 10%;
 }
 
 p {
   margin-top: 0;
 }
 
-.logo {
+.header {
   height: 300px;
   background-size: contain;
   background-position: center;
@@ -121,19 +121,10 @@ ul.main-menu {
 }
 
 nav#TableOfContents {
-  background: #f0e3e2;
-  margin-right: 1rem;
-  padding: 1rem;
+  background: red;
   float: left;
+  display: block;
 }
-
-nav#TableOfContents > ul {
-  border-block: double;
-  list-style-type: numbered;
-  margin: 0.5rem;
-  padding: 1rem;
-}
-
 @media screen and (max-width: 48rem) {
   .site-nav,
   .main-menu {
@@ -155,9 +146,6 @@ nav#TableOfContents > ul {
   .content {
     padding: 0;
   }
-
-  nav#TableOfContents {
-    float: none;
 }
 
 /* LISTS */

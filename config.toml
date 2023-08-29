@@ -4,7 +4,7 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-    logo = '/test.png' #use with {{ with .Site.Params.authorPortrait }}
+    header = '/test.png' #use with {{ with .Site.Params.authorPortrait }}
     authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
