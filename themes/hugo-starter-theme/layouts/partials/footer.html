@@ -20,6 +20,12 @@
     {{ with .Site.Params.links.github }}
         <a href="{{ . }}">github</a>
     {{ end }}
+    {{ with .Site.Params.links.fedi }}
+        <a href="{{ . }}">fedi</a>
+    {{ end }}
+    {{ with .Site.Params.links.blog }}
+        <a href="{{ . }}">blog</a>
+    {{ end }}
 </footer>
 </div>
 </body>

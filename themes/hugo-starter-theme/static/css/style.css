@@ -24,9 +24,7 @@ body {
 }
 
 .site-header {
-  border: 1px solid #cfbabb;
-  border-left: 0;
-  border-right: 0;
+  border-block: 1px solid #cfbabb;
 }
   
 h1 {
@@ -37,9 +35,21 @@ h1 {
 
 h2 {
   display: inline-block;
-  margin-bottom: 0;
+  margin: 0;
   font-family: Barlow Condensed;
   font-weight: 300;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.content {
+  padding: 4% 10%;
+}
+
+p {
+  margin-top: 0;
 }
 
 .logo {
@@ -50,19 +60,17 @@ h2 {
   margin-bottom: 1rem;
   }
 
-div.portrait {
-  margin: 30px;
-  float: left;
-  border: 1px solid #c18188;
-}
-
-.portrait > img {
-    display: block;
-    max-width: 100%;
-}
-
 .about {
   display: table;
+}
+
+a {
+  color: #333;
+  font-weight: 500;
+}
+
+a:visited {
+  color: #666;
 }
 
 div.img > img[itemprop="thumbnail"] {
@@ -72,6 +80,7 @@ div.img > img[itemprop="thumbnail"] {
 footer {
   border-top: 1px solid #cfbabb;
   clear: both;
+  padding: 1rem;
 }
 
 footer a:link {
@@ -94,7 +103,7 @@ footer a:visited {
   color: #254441;
   text-transform: uppercase;
   font-family: Barlow Condensed;
-  letter-spacing: 2px;
+ /* letter-spacing: 2px;*/
 }
 
 .site-nav .home {
@@ -109,6 +118,20 @@ footer a:visited {
 
 ul.main-menu {
   padding: 0;
+}
+
+nav#TableOfContents {
+  background: #f0e3e2;
+  margin-right: 1rem;
+  padding: 1rem;
+  float: left;
+}
+
+nav#TableOfContents > ul {
+  border-block: double;
+  list-style-type: numbered;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 48rem) {
@@ -128,6 +151,13 @@ ul.main-menu {
   .site-nav a {
     padding: 0.5rem;
   }
+
+  .content {
+    padding: 0;
+  }
+
+  nav#TableOfContents {
+    float: none;
 }
 
 /* LISTS */
@@ -137,5 +167,7 @@ ul.main-menu {
 }
 
 .post-snippet h3 {
-  margin-bottom: 0.25rem;
+ text-transform: uppercase;
+ font-family: Barlow Condensed;
+ margin-bottom: 0.25rem;
 }

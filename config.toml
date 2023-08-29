@@ -4,7 +4,7 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 
 [params]
-    logo = '/test.png'
+    logo = '/test.png' #use with {{ with .Site.Params.authorPortrait }}
     authorPortrait = '/portrait_small.jpg'
 [params.links]
     twitter = 'https://twitter.com/amelielavender'
@@ -13,6 +13,8 @@ theme = 'hugo-starter-theme'
     email = 'mailto:lavenderamelie@gmail.com'
     kofi = 'https://ko-fi.com/amelie'
     github = 'https://github.com/amelielavender/portfolio'
+    fedi = 'https://a.sapphic.online'
+    blog = '/blog'
 
 [menu]
 [[menu.main]]
