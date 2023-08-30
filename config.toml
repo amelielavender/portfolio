@@ -1,5 +1,5 @@
 baseURL = ''
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 enableEmoji = true
