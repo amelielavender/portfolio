@@ -3,4 +3,6 @@ public/
 resources/
 .hugo_build.lock
 *.clip
-.obsidian/
+content/blog/.obsidian/
+test.md
+workspace.json

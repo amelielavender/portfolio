@@ -2,6 +2,7 @@
 title: "Nextcloud and Apache"
 date: 2023-03-01T00:42:55-05:00
 draft: true
+layout: blog
 ---
 
 As a late birthday present to myself one day in February, I decided to snag the url `sapphic.online` just for kicks. I already had a digital ocean droplet running (just for a Valheim server, at the time) so I thought I could do something useful with the both of them in tandem.

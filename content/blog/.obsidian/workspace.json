@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "apache.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apache.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apache.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apache.md"
+                "file": "test.md"
               }
             }
           }
@@ -149,7 +149,9 @@
   "active": "b45b7e27e0b3c3d1",
   "lastOpenFiles": [
     "vtuber.md",
-    "inochi-2d.md",
-    "apache.md"
+    "test.md",
+    "apache.md",
+    "_index.md",
+    "inochi-2d.md"
   ]
 }

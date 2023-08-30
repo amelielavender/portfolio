@@ -2,6 +2,7 @@
 title: "Creating a Vtuber Puppet"
 date: 2023-02-08T00:31:57-05:00
 draft: true
+layout: blog
 ---
 
 A while back my partner came up to me and asked if I thought I would want to come up with a design for a vtuber idea she had. I thought it was an interesting prospect so I said "sure" and set about jotting some initial concepts down.
@@ -24,7 +25,7 @@ Here, we're almost at where it truly begins. I used an example model from Inochi
 
 (image of sketch here)
 
-## separaating into parts
+## separating into parts
 
 this was truly agonizing i hate using my brain for things
 

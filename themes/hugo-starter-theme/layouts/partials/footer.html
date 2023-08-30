@@ -2,30 +2,14 @@
 	
 <footer>
 	<p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
-    {{ with .Site.Params.links.twitter }}
-        <a href="{{ . }}">twitter</a>
+  <ul class=footer-menu>
+    {{ range.Site.Menus.footer }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
     {{ end }}
-    {{ with .Site.Params.links.twitch }}
-        <a href="{{ . }}">twitch</a>
-    {{ end }}
-    {{ with .Site.Params.links.tumblr }}
-        <a href="{{ . }}">tumblr</a>
-    {{ end }}
-    {{ with .Site.Params.links.email }}
-        <a href="{{ . }}">email</a>
-    {{ end }}
-    {{ with .Site.Params.links.kofi }}
-        <a href="{{ . }}">ko-fi</a>
-    {{ end }}
-    {{ with .Site.Params.links.github }}
-        <a href="{{ . }}">github</a>
-    {{ end }}
-    {{ with .Site.Params.links.fedi }}
-        <a href="{{ . }}">fedi</a>
-    {{ end }}
-    {{ with .Site.Params.links.blog }}
-        <a href="{{ . }}">blog</a>
-    {{ end }}
+  </ul>
+  <p>this page's last commit: <a href="{{ .Site.Params.Links.git }}">{{ .GitInfo.AbbreviatedHash }}</a> on {{ .Lastmod.Format "January 2, 2006" }} </p>
 </footer>
 </div>
 </body>

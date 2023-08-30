@@ -12,7 +12,7 @@
 
     <div class="wrapper">
         <a href="/">
-        <div class="header" style="background-image: url('{{ .Site.Params.header }}');"></div>
+          <div class="header" style="background-image: url(' {{ .Site.Params.logo }}'), url('{{ .Site.Params.header }}');"></div>
     </a>
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
