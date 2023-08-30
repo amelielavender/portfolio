@@ -9,6 +9,7 @@ enableGitInfo = true
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
     logo = '/ameliemakesart-light.png'
     #authorPortrait = '/portrait_small.jpg'
+    mainSections = ['blog',] # in case i want to add any other sections
 [params.links]
     email = 'mailto:lavenderamelie@gmail.com'
     git = 'https://github.com/amelielavender/portfolio'
