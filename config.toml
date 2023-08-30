@@ -7,7 +7,7 @@ enableGitInfo = true
 
 [params]
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
-    logo = '/ameliemakesart.png'
+    logo = '/ameliemakesart-light.png'
     #authorPortrait = '/portrait_small.jpg'
 [params.links]
     email = 'mailto:lavenderamelie@gmail.com'
