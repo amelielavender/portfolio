@@ -1,0 +1,22 @@
+/* delugia-mono-italic */
+@font-face {
+	font-family: Delugia Mono;
+	font-style: italic;
+	font-weight: 400;
+	src: local("Delugia Mono Italic"), local("DelugiaMono-Italic"), url(delugia-mono-italic.woff2) format("woff2");
+}
+/* delugia-mono */
+@font-face {
+	font-family: Delugia Mono;
+	font-style: normal;
+	font-weight: 400;
+	src: local("Delugia Mono"), local("DelugiaMono-Regular"), url(delugia-mono.woff2) format("woff2");
+}
+/* delugia-mono-bold */
+@font-face {
+	font-family: Delugia Mono;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Delugia Mono Bold"), local("DelugiaMono-Bold"), url(delugia-mono-bold.woff2) format("woff2");
+}
+
