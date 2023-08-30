@@ -2,19 +2,16 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'amelie makes art'
 theme = 'hugo-starter-theme'
+enableEmoji = true
+enableGitInfo = true
 
 [params]
-    header = '/test.png' #use with {{ with .Site.Params.authorPortrait }}
-    authorPortrait = '/portrait_small.jpg'
+    header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
+    logo = '/ameliemakesart.png'
+    #authorPortrait = '/portrait_small.jpg'
 [params.links]
-    twitter = 'https://twitter.com/amelielavender'
-    twitch = '' 
-    tumblr = ''
     email = 'mailto:lavenderamelie@gmail.com'
-    kofi = 'https://ko-fi.com/amelie'
-    github = 'https://github.com/amelielavender/portfolio'
-    fedi = 'https://a.sapphic.online'
-    blog = '/blog'
+    git = 'https://github.com/amelielavender/portfolio'
 
 [menu]
 [[menu.main]]
@@ -32,3 +29,23 @@ theme = 'hugo-starter-theme'
     name = 'tomorrow mourning'
     url = '/comics/tomorrow-mourning'
     weight = 1
+[[menu.footer]]
+    identifier = 'fedi'
+    name = 'fedi'
+    url = 'https://a.sapphic.online'
+    weight = 1
+[[menu.footer]]
+    identifier = 'blog'
+    name = 'blog'
+    url = '/blog'
+    weight = 2
+[[menu.footer]]
+    identifier = 'kofi'
+    name = 'ko-fi'
+    url = 'https://ko-fi.com/amelie'
+    weight = 3
+[[menu.footer]]
+    identifier = 'etsy'
+    name = 'etsy shop'
+    url = 'https://etsy.com/amelielavender'
+    weight = 4
