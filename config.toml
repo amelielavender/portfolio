@@ -5,6 +5,15 @@ theme = 'hugo-starter-theme'
 enableEmoji = true
 enableGitInfo = true
 
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English US'
+    title = 'amelie blog'
+    weight = 0
+
 [params]
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
     logo = '/ameliemakesart-light.png'
