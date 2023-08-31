@@ -14,6 +14,10 @@ enableGitInfo = true
     title = 'amelie makes art'
     weight = 0
 
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-frappe'
+
 [params]
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
     logo = '/ameliemakesart-light.png'
