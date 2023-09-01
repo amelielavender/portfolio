@@ -19,6 +19,8 @@ enableGitInfo = true
     style = 'catppuccin-frappe'
 
 [params]
+    description = 'amelie lavender is a US-based blind artist and illustrator.'
+    title = 'amelie makes art'
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
     logo = '/ameliemakesart-light.png'
     mainSections = ['blog',] # in case i want to add any other sections
