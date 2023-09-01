@@ -77,7 +77,8 @@ code {
 }
 
 code, div.highlight {
-  font-family: "delugia mono", sans-serif
+  font-family: "delugia mono", sans-serif;
+  font-size: 12pt;
 }
 
 div.highlight {
