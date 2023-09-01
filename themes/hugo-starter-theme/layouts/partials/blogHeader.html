@@ -10,6 +10,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
+{{ template "_internal/opengraph.html" . }}
+
     <div class="wrapper">
         <a href="/">
           <div class="header" style="background-image: url('{{ .Site.Params.logo }}'), url('{{ .Params.header }}');"></div>
