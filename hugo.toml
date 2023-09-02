@@ -4,7 +4,6 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 enableEmoji = true
 enableGitInfo = true
-canonifyURLs = true
 
 [languages]
   [languages.en]
@@ -21,7 +20,7 @@ canonifyURLs = true
 
 [params]
     description = 'amelie lavender is a US-based blind artist and illustrator.'
-    images = ['background.png']
+    images = ['https://ameliemakes.art/background.png']
     title = 'amelie makes art'
     header = '/artwork/illustration%20for%20eeveelution%20zine.png' #use with {{ with .Site.Params.authorPortrait }}
     logo = '/ameliemakesart-light.png'
