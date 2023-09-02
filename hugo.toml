@@ -4,6 +4,7 @@ title = 'amelie makes art'
 theme = 'hugo-starter-theme'
 enableEmoji = true
 enableGitInfo = true
+canonifyURLs = true
 
 [languages]
   [languages.en]
