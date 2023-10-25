@@ -4,7 +4,7 @@
 @import url("/fonts/barlow-condensed/barlow-condensed.css");
 @import url("/fonts/delugia-mono/delugia-mono.css");
 
-html {
+html * {
   animation-duration: 2s;
   animation-name: fadeIn;
 }
