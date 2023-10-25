@@ -16,4 +16,3 @@ feel free to redistribute the art but please leave signatures attached and/or cr
 you may use the css portion, including the background image, any way you wish. see LICENSE
 hugo-easy-gallery is licensed under the MIT license and usage is subject to those terms.
 
-[^1]: site doesn't use remote fonts, google repo linked for reference only.
