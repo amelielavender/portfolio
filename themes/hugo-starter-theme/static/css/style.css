@@ -11,19 +11,16 @@ body {
   max-width: 66%; 
   margin: 0 auto;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  background-image: url("/background.png");
-  background-color: white;   
-  background-position: center;
-  background-size: 400px;
-  background-attachment: fixed;
-  animation: fadeIn 1s ease;
+  background: white url("/background.png") center/400px repeat fixed; 
 }
 
 @keyframes fadeIn {
-  0% {
+  100% {
+    display: none;
     opacity: 0;
   }
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -36,9 +33,7 @@ body {
 
 .header {
   height: 300px;
-  background-size: auto, cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: no-repeat center; 
   margin-bottom: 1rem;
   }
 
