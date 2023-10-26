@@ -4,20 +4,6 @@
 @import url("/fonts/barlow-condensed/barlow-condensed.css");
 @import url("/fonts/delugia-mono/delugia-mono.css");
 
-html * {
-  animation-duration: 2s;
-  animation-name: fadeIn;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-  
 body {
   color: #333;
   font-size: 125%;
@@ -30,6 +16,16 @@ body {
   background-position: center;
   background-size: 400px;
   background-attachment: fixed;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .wrapper {
