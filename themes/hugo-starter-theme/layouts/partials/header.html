@@ -21,7 +21,6 @@
 
 <body>
 
-<body style="animation: fadeIn 1s ease;">
  <div class="wrapper">
     <a href="/">
       <div class="header" style="background-image: url('{{ .Site.Params.logo }}'), 
@@ -30,7 +29,7 @@
       {{ else }}
         url('{{ .Site.Params.header }}');
       {{end}}
-      background-size: auto, cover;"></div>
+      "></div>
     </a>
 
   {{ partial "nav.html" . }}
