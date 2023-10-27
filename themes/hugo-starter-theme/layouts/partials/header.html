@@ -17,10 +17,25 @@
 
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
+  <style>
+    .hidden {
+      opacity: 0;
+    }
+
+    .visible {
+      opacity: 1;
+      transition: opacity 1s ease-out;
+    }
+  </style>
 </head>
 
 <body>
-
+  <script>
+    document.body.className = 'hidden';
+    window.addEventListener('load', function () {
+      document.body.className = 'visible';
+    });
+  </script>
  <div class="wrapper">
     <a href="/">
       <div class="header" style="background-image: url('{{ .Site.Params.logo }}'), 
