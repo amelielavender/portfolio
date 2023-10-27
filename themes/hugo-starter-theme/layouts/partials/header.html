@@ -24,7 +24,11 @@
 <body style="animation: fadeIn 1s ease;">
  <div class="wrapper">
     <a href="/">
-      <div class="header" style="background-image: url(' {{ .Site.Params.logo }}'), url('{{ .Site.Params.header }}');"></div>
+      {{ if isset .Params "images" }}
+        <div class="header" style="background-image: url('{{ .Site.Params.logo }}'), url('{{ (index .Params.images 0) }}');"></div>
+      {{ else }}
+        <div class="header" style="background-image: url(' {{ .Site.Params.logo }}'), url('{{ .Site.Params.header }}');"></div>
+      {{end}}
     </a>
 
   {{ partial "nav.html" . }}
