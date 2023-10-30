@@ -1,20 +1,29 @@
 </main>
 	
 <footer>
-	<p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
-  <ul class=footer-menu>
-    {{ range.Site.Menus.footer }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-    {{ end }}
-  </ul>
+    <div class="footer-links">
+    <h4>say hello!</h4>
+    <ul class=footer-menu>
+      {{ range.Site.Menus.footer }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="mochi" role="img" aria-label="stylized chibi of my calico cat named Mochi">
+  </div>
+  <div class="copyright">
+    <p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+  
+
   {{ if $.GitInfo }}
   <p>
     this page's last commit: <a href="{{ .Site.Params.Links.git }}">
     {{ .GitInfo.AbbreviatedHash }}</a> on {{ .Lastmod.Format "January 2, 2006" }} 
   </p>
   {{ end }}
+</div>
 </footer>
 
 </div>
