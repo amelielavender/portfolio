@@ -2,7 +2,7 @@
 title: "Using Rathole to Host Web Services at Home"
 date: 2023-12-02T17:40:10-05:00
 draft: false 
-images: ['rats_jerma.png'] 
+images: ['https://ameliemakes.art/rathole/rats_jerma.png'] 
 layout: blog
 ---
 
