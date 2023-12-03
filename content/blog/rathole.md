@@ -8,7 +8,7 @@ layout: blog
 
 ## bringing it home
 
-last month i decided that i wanted to spin down the current digital ocean droplet i was using. it was starting to be a giant pain on the wallet for barely any resource usage cpu-wise and too little RAM (in my opinion, anyway. i'm just cheap). inspired by someone mentioning she hosts a website from her basement, my first thought was researching whether my ISP provided static IPs to regular non-business customers and the answer was a flat-out no. as disappointing as that was, i figured that i didn't want to mess with opening ports on my router and taking care of all the baggage that comes with punching holes in a firewall that leads to my entire LAN (i'm not a networking person, what can i say).
+last month i decided that i wanted to spin down the current digital ocean droplet i was using. it was starting to be a giant pain on the wallet for barely any resource usage cpu-wise and too little RAM (in my opinion, anyway. i'm just cheap). inspired by someone mentioning she hosts a website from her basement, my first thought was researching whether my ISP provided static IPs to regular non-business customers and the answer was a flat-out no. as disappointing as that was, i figured that i didn't want to mess with opening ports on my router and taking care of all the baggage that comes with punching holes in a firewall that leads to my entire LAN *anyway* *anyway* *anyway* *anyway* *anyway* *anyway* *anyway* *anyway* *anyway* (i'm not a networking person, what can i say).
 
 so i started looking at tunneling options. 
 
