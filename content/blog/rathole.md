@@ -2,6 +2,7 @@
 title: "Using Rathole to Host Web Services at Home"
 date: 2023-12-02T17:40:10-05:00
 draft: false 
+description: "show rathole"
 images: ['https://ameliemakes.art/blog/rathole/rats_jerma.png'] 
 layout: blog
 ---
@@ -17,6 +18,8 @@ eh? what's "tunneling?"
 well, good question! and something i didn't have a clear grasp on at the beginning of this journey. essentially you're creating a direct tunnel from the web app you want to host out to the wider internet, at least in my case that is. 
 
 ![illustrating a secure tunneling going from an app to the outside internet](a-hopefully-secure-tunnel.png)
+
+a **secure** tunnel provides an encrypted connection between your local machine and another machine, whether it's a different local one or a far-away one, like a virtual private server you rent.
 
 {{% aside %}}
 if you know about SSH, then you probably know about *SSH tunnneling* otherwise known as *SSH port forwarding*. rathole and other such software are pretty much doing the same thing in a "hands-off" manner. some even leverage SSH tunneling themselves. [check out this link for a brief list of tunneling software](https://github.com/anderspitman/awesome-tunneling).
@@ -80,8 +83,7 @@ so essentially, your rathole server is going to listen on port 7000 for any chan
 
 okay, now i can set up the server side of things. i ssh'd into my $4 vps and set up a "server.toml" for it. it looks similar to this:
 
-{{< highlight toml >}}
-# /home/vps-user/rathole-example 
+{{< highlight toml >}} 
 [server]
 bind_addr = "0.0.0.0:7000"
 # we making the server side of rathole listen on port 7000 for our
@@ -96,7 +98,7 @@ token = "hack-me"
 bind_addr = "0.0.0.0:6543" 
 # specifies the port that exposes "example" to the internet. 
 # in other words, when people to go ip-or-url-of-your-vps.com:6543, they'll
-# be directed through the tunnel to 192.168.1.172:1234
+# be directed through the tunnel to 192.168.1.172:1234, or whatever the LAN address of the client is
 
 {{< /highlight >}}
 
@@ -104,7 +106,7 @@ i saved the config file and started up the server with `./rathole -s server.toml
 
 all i had to do thereafter was point my browser to https://a.sapphic.online and my iceshrimp instance loads! 
 
-migrating the rest of my web apps like [bin](https://github.com/w4/bin) and my minecraft server to use rathole was a breeze. for minecraft all you need to do is open and use port 25565[^2] on both rathole's server and client (if using default mc server settings). for anything needing to be accessible by url, i just created reverse proxy directives as i needed them in my Caddyfile. 
+migrating the rest of my web apps like [bin](https://github.com/w4/bin) and my minecraft server to use rathole was a breeze. for minecraft all you need to do is open and use port 25565[^2] on both rathole's server and client (if using default mc server settings). for anything needing to be accessible by url, i just created reverse proxy directives as i needed them in my Caddyfile. now anyone on the internet can come visit all the apps i have running on my laptop without my residential IP being exposed. additionally, i don't have to worry about my ISP's dynamic IP assignments changing.
 
 and that was it! it really was no muss no fuss. after all was confirmed working, i set up some systemd services to autostart rathole on both sides and bam, my digital ocean bill is going from $51 to $4 😇
 
