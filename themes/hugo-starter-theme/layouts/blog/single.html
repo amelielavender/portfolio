@@ -1,9 +1,16 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1> 
-<p>{{.WordCount}} words | {{ .ReadingTime }} minute read</p>
+<article>
+  <h1>{{ .Title }}</h1> 
+  <p>{{.WordCount}} words | {{ .ReadingTime }} minute read</p>
 
-{{ .TableOfContents }}
-{{ .Content }}
+  {{ if (gt .WordCount 400 ) }}
+
+    {{ .TableOfContents }}
+
+  {{ end }}
+
+  {{ .Content }}
+</article>
 
 {{ partial "footer.html" . }}

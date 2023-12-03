@@ -68,7 +68,18 @@ p {
 }
 
 p > img {
-  width: 50%;
+  border: 1px solid #494464;
+  width: 75%;
+}
+
+aside {
+  border: 1px solid pink;
+  border-radius: 2px;
+  background: #f0e2e2;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 10px 5px #c0d8f2;
+  color: #494464; 
 }
 
 blockquote {
@@ -92,8 +103,10 @@ code, div.highlight {
 
 div.highlight {
   background-color: #303446;
+  margin: 10px 0;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  overflow: scroll;
 }
 .about {
   display: table;
