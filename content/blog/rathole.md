@@ -104,7 +104,7 @@ i saved the config file and started up the server with `./rathole -s server.toml
 
 all i had to do thereafter was point my browser to https://a.sapphic.online and my iceshrimp instance loads! 
 
-migrating the rest of my web apps like [bin]() and my minecraft server to use rathole was a breeze. for minecraft all you need to do is open and use port 25565[^2] on both rathole's server and client (if using default mc server settings). for anything needing to be accessible by url, i just created reverse proxy directives as i needed them in my Caddyfile. 
+migrating the rest of my web apps like [bin](https://github.com/w4/bin) and my minecraft server to use rathole was a breeze. for minecraft all you need to do is open and use port 25565[^2] on both rathole's server and client (if using default mc server settings). for anything needing to be accessible by url, i just created reverse proxy directives as i needed them in my Caddyfile. 
 
 and that was it! it really was no muss no fuss. after all was confirmed working, i set up some systemd services to autostart rathole on both sides and bam, my digital ocean bill is going from $51 to $4 😇
 
