@@ -15,8 +15,8 @@ enableGitInfo = true
     weight = 0
 
 [markup]
-  [markup.goldmark.renderer]
-    unsafe = true
+  [markup.goldmark.extensions.cjk]
+    enabled = true
   [markup.highlight]
     style = 'catppuccin-frappe'
 
