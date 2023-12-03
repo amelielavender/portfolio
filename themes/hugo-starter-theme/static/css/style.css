@@ -68,7 +68,7 @@ p {
 }
 
 p > img {
-  width: 100%;
+  width: 50%;
 }
 
 blockquote {
@@ -225,6 +225,10 @@ nav#TableOfContents > ul {
   nav#TableOfContents {
     margin: 0 auto;
     float: none;
+  }
+
+  p > img {
+    width: 100%
   }
   
   footer {
