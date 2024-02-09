@@ -1,6 +1,7 @@
 ---
 title: "Using Rathole to Host Web Services at Home"
 date: 2023-12-02T17:40:10-05:00
+tags: ['rathole', 'NAT', 'tunneling', 'self-hosting']
 draft: false 
 description: "show rathole"
 images: ['https://ameliemakes.art/blog/rathole/rats_jerma.png'] 

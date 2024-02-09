@@ -1,7 +1,7 @@
 baseURL = ''
 languageCode = 'en'
 title = 'amelie makes art'
-theme = 'hugo-starter-theme'
+theme = 'cozy'
 enableEmoji = true
 enableGitInfo = true
 
