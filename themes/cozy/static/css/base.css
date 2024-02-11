@@ -14,17 +14,6 @@ body {
   background: white url("/background.png") center/400px repeat fixed; 
 }
 
-@keyframes fadeIn {
-  100% {
-    display: none;
-    opacity: 0;
-  }
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}
-
 .wrapper {
   height: 100%;
   background-color: white;
