@@ -1,0 +1,18 @@
+/* cozy hugo theme: headers.css */
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-family: Barlow Condensed;
+}
+
+h2 {
+  display: inline-block;
+  margin: 0;
+  font-family: Barlow Condensed;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 400;
+}

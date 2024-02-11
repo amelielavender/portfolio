@@ -1,0 +1,49 @@
+/* cozy hugo theme: mobile.css */
+
+@media screen and (max-width: 48rem) {
+  .site-nav,
+  .main-menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  body {
+    min-width: 100%;
+    background-image:none;
+  }
+  .wrapper {
+    padding: 10px;
+  }
+
+  .header {
+      height: 5rem;
+      background-size: 80%, cover;
+  }
+  .site-nav a {
+    padding: 0.5rem;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  nav#TableOfContents {
+    margin: 0 auto;
+    float: none;
+  }
+
+  p > img {
+    width: 100%
+  }
+  
+  footer {
+    display: block;
+  }
+  
+  footer .mochi {
+    height: 20rem;
+  }
+
+}
+
+

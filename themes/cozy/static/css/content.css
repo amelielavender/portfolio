@@ -1,0 +1,52 @@
+
+.content {
+  padding: 0 10%;
+}
+
+p {
+  margin-top: 0;
+}
+
+p > img {
+  border: 1px solid #494464;
+  width: 75%;
+}
+
+aside {
+  border: 1px solid pink;
+  border-radius: 2px;
+  background: #f0e2e2;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 10px 5px #c0d8f2;
+  color: #494464; 
+}
+
+blockquote {
+  display: grid;
+  border-left: 10px solid #cfbabb;  
+  background: #eee;
+}
+
+blockquote > p {
+  margin: 1rem;
+}
+
+.about {
+  display: table;
+}
+
+a {
+  color: #333;
+  font-weight: 500;
+}
+
+a:visited {
+  color: #666;
+}
+
+div.img > img[itemprop="thumbnail"] {
+  width: 100%;
+}
+
+

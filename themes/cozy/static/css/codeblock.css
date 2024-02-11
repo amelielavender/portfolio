@@ -1,0 +1,19 @@
+/* cozy hugo theme: codeblock.css */
+
+code {
+  background: #f0e3e2;
+}
+
+code, div.highlight {
+  font-family: "delugia mono", sans-serif;
+  font-size: 12pt;
+}
+
+div.highlight {
+  background-color: #303446;
+  margin: 10px 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  overflow: scroll;
+}
+

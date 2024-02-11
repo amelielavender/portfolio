@@ -1,0 +1,12 @@
+/* cozy hugo theme: postSnippets.css */
+/* styles list pages where articles are shown */
+
+.post-snippet {
+  margin-bottom: 1rem;
+}
+
+.post-snippet h3 {
+ text-transform: uppercase;
+ font-family: Barlow Condensed;
+ margin-bottom: 0.25rem;
+}

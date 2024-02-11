@@ -1,0 +1,43 @@
+/* cozy hugo theme: footer.css */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #cfbabb;
+  clear: both;
+  padding: 1rem;
+}
+
+footer .copyright {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer-menu, .footer-menu > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-menu > li {
+  display: block;
+  margin-right: 5px;
+}
+
+footer a:link {
+  color: #333
+  }
+
+footer a:visited {
+  color: #888;
+  }
+
+footer .mochi {
+  margin: 1rem;
+  padding: 5px;
+  background: url('/mochi-web.svg') no-repeat center;
+  background-size: contain;
+  grid-column-end: 4;
+}
+
+

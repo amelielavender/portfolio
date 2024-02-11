@@ -1,0 +1,17 @@
+/* cozy hugo theme: tags.css */
+
+ul#tags {
+  list-style-type: none;
+  font-size: 10pt;
+  padding: 0;
+}
+
+ul#tags > li {
+ margin: 0.5rem;
+ float: right;
+}
+
+ul#tags > li::before {
+  content: '🏷️'
+}
+
