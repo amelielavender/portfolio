@@ -11,7 +11,7 @@ body {
   max-width: 66%; 
   margin: 0 auto;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  background: white url("/background.png") center/400px repeat fixed; 
+  background: #f9ded5 url("/background.png") center/400px repeat fixed; 
 }
 
 .wrapper {
