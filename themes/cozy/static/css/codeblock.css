@@ -1,7 +1,8 @@
 /* cozy hugo theme: codeblock.css */
 
 code {
-  background: #f0e3e2;
+  background: var(--code-bg);
+  color: var(--code-fg);
 }
 
 code, div.highlight {
@@ -10,7 +11,7 @@ code, div.highlight {
 }
 
 div.highlight {
-  background-color: #303446;
+  background-color: var(--code-bg);
   margin: 10px 0;
   padding: 0.5rem 1rem;
   border-radius: 5px;

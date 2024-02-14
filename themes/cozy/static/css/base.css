@@ -4,19 +4,45 @@
 @import url("/fonts/barlow-condensed/barlow-condensed.css");
 @import url("/fonts/delugia-mono/delugia-mono.css");
 
+:root {
+  --main-bg: #f9ded5;
+  --content-bg: white;
+  --hls-borders: #cfbabb;
+  --site-nav: #254441;
+  --link: #333;
+  --link-visited: #999;
+  --paragraph-text: #333;
+  --code-bg: #f0e2e2;
+  --code-fg: var(--paragraph-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg: #2e2e3b;
+    --content-bg: #2e2e3b;
+    --hls-borders: #7d7f89;
+    --site-nav: #adb6a9;
+    --link: #aaa; 
+    --link-visited: #ddbfc0;
+    --paragraph-text: #fbd7ea; 
+    --code-bg: #303446;
+    --code-fg: var(--paragraph-text);
+ }
+}
+
 body {
-  color: #333;
+  color: var(--paragraph-text);
   font-size: 125%;
   line-height: 1.5;
   max-width: 66%; 
   margin: 0 auto;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  background: #f9ded5 url("/background.png") center/400px repeat fixed; 
+  background: var(--main-bg) /*url("/background.png") center/400px repeat fixed */; 
 }
 
 .wrapper {
   height: 100%;
-  background-color: white;
+  background-color: var(--content-bg);
   padding: 20px;
 }
 

@@ -3,7 +3,7 @@
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid #cfbabb;
+  border-top: 1px solid var(--hls-borders);
   clear: both;
   padding: 1rem;
 }
@@ -23,14 +23,6 @@ footer .copyright {
   display: block;
   margin-right: 5px;
 }
-
-footer a:link {
-  color: #333
-  }
-
-footer a:visited {
-  color: #888;
-  }
 
 footer .mochi {
   margin: 1rem;

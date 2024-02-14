@@ -8,7 +8,7 @@
 .site-nav a {
   display: block;
   padding: 1rem;
-  color: #254441;
+  color: var(--site-nav); 
   text-transform: uppercase;
   font-family: Barlow Condensed;
 }
@@ -29,7 +29,7 @@ ul.main-menu {
 
 nav#TableOfContents {
   display: grid;
-  background: #f0e3e2;
+  background: var(--code-bg);
   margin-right: 1rem ;
   padding: 1rem;
   float: left;
@@ -41,5 +41,3 @@ nav#TableOfContents > ul {
   margin: 0.5rem;
   padding: 1rem;
 }
-
-

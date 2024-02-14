@@ -7,10 +7,12 @@
     align-items: center;
     padding: 0;
   }
+  
   body {
     min-width: 100%;
     background-image:none;
   }
+
   .wrapper {
     padding: 10px;
   }
@@ -43,7 +45,4 @@
   footer .mochi {
     height: 20rem;
   }
-
 }
-
-
