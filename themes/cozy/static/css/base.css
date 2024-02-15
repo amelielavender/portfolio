@@ -41,7 +41,7 @@ body {
   max-width: 66%; 
   margin: 0 auto;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  background: var(--main-bg) /*url("/background.png") center/400px repeat fixed */; 
+  background: var(--main-bg); 
 }
 
 .wrapper {
