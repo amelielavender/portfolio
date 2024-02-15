@@ -17,7 +17,7 @@ p > img {
 blockquote {
   display: grid;
   border-left: 10px solid #cfbabb;  
-  background: #eee;
+  background: var(--highlight);
 }
 
 blockquote > p {
