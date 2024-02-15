@@ -14,6 +14,7 @@
   --paragraph-text: #333;
   --code-bg: #f0e2e2;
   --code-fg: var(--paragraph-text);
+  --highlight: #303446;
   --aside-border: pink;
   --aside-shadow: #c0d8f2;
   --aside-text: #494464;

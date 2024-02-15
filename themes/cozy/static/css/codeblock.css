@@ -11,7 +11,7 @@ code, div.highlight {
 }
 
 div.highlight {
-  background-color: var(--code-bg);
+  background-color: var(--highlight);
   margin: 10px 0;
   padding: 0.5rem 1rem;
   border-radius: 5px;
