@@ -1,1 +1,11 @@
-TODO
+/* cozy hugo theme: aside.css */
+
+aside {
+  border: 1px solid pink;
+  border-radius: 2px;
+  background: var(--code-bg);
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 10px 5px var(--aside-shadow);
+  color: var(--aside-text); 
+}
