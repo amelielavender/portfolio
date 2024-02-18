@@ -1,6 +1,6 @@
 ---
 title: "I2d Resources"
-tags: ['inochi2d', 'vtubing', 'open source', 'links']
+tags: ['inochi2d', 'vtubing', 'open-source', 'links']
 date: 2024-02-18T14:14:51-05:00
 draft: false 
 images: [''] 
@@ -15,7 +15,7 @@ please be aware that these resources are relevant as of the date of this blog po
 
 ### documentation
 
-#### [unofficial documentation on google docs](https://docs.google.com/document/d/1c6wNwVipg4NZ_XPUJJL-hdZarJrX9rGu1tLPNRCvbjw/edit?usp=sharing)
+#### [Unofficial documentation](https://docs.google.com/document/d/1c6wNwVipg4NZ_XPUJJL-hdZarJrX9rGu1tLPNRCvbjw/edit?usp=sharing)
 written by higasa mitsue. probably the most extensive writeup on inochi2d creator and session to this day. might be missing stuff introduced with the latest release (0.8.3).
 
 #### [Official FAQ](https://docs.inochi2d.com/en/latest/inochi2d/faq.html)
@@ -23,6 +23,9 @@ answers things like cost, live2d compatibility, licensing...
 
 #### [Official docs](https://docs.inochi2d.com/en/latest/)
 contains a mini tutorial to get you up and running with i2d software, as well as developer docs (WIP as of this writing).
+
+#### [Discord](https://discord.gg/inochi2d-community-855173611409506334)
+the Official inochi2d community discord server. you can get real time help and assistance here as well as show off your creations. 
 
 ### videos
 
@@ -53,6 +56,8 @@ a flip pairing is a configuration of parts that are generally the left nd right 
 #### [copy and paste a mesh to use with other parts?](https://discord.com/channels/855173611409506334/888154799357440030/1080316944495943790)
 discord link
 
+if you would like to copy a mesh that you've already created from one node to another node, switch to your target node and then drag the name of the node from the nodes menu onto the Edit Mesh button. the buttons should then change into "Copy Mesh" and you can drop the mesh onto the button to copy it.
+
 #### [copy a rig to its symmetrical counterpart?](https://discord.com/channels/855173611409506334/888154799357440030/1128340725025738813)
 (eg left eye to right eye blink) - discord link
 seagetch shows how to copy a rigged right eye parameter to Ada's left eye.
@@ -62,7 +67,8 @@ TODO
 
 ### export video
 #### export video from inochi creator?
-install ffmpeg (TODO)
+[install ffmpeg](https://ffmpeg.org/download.html) 
+if you've created an animation in inochi creator and would like to export a video of it directly, you'll need to install ffmpeg. the export animation menu entry will be disabled otherwise. 
 
 ### use the path deform tool?
 #### [use the path deform tool?](https://youtu.be/gPMdlKGLELE?si=9OGjWKNJektpooEC)
@@ -84,12 +90,22 @@ this includes both an inp and inx file to play with.
 also by navy prince
 
 ## external software 
-
+### tracking
 #### [puppetstring](https://ar14.itch.io/puppetstring)
 desktop webcame tracking solution for inochi session. you can use various things to control your rig with this software, including mouse tracking, face-tracking, button toggles and more. 
 
-#### maybe put ffmpeg here idk
+#### [OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)
+Robust realtime face and facial landmark tracking on CPU with Unity integration
+
+#### [VtubeStudio](https://denchisoft.com/)
+VTube Studio is an app for Virtual YouTubers that makes it easy and fun to bring your own Live2D models to life.
+
+### dependencies
+#### [ffmpeg](https://ffmpeg.org/download.html) 
 
 ## tips and tricks
 
+### L2D tuts applicable to inochi
+### rigging tips
+### fun effects
 sorry i got bored here. TODO
