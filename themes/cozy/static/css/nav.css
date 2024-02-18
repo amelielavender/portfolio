@@ -41,3 +41,7 @@ nav#TableOfContents > ul {
   margin: 0.5rem;
   padding: 1rem;
 }
+
+nav#TableOfContents > ul > li > ul {
+  padding-left: 1rem;
+}
