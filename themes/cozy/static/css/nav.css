@@ -11,6 +11,8 @@
   color: var(--site-nav); 
   text-transform: uppercase;
   font-family: Barlow Condensed;
+  letter-spacing: 0.05em;
+  text-decoration: none;
 }
 
 .site-nav .home {

@@ -3,6 +3,7 @@
 .content {
   padding: 0 10%;
   margin: 5rem auto;
+  line-height: 1.5;
 }
 
 p {
@@ -16,12 +17,13 @@ p > img {
 
 blockquote {
   display: grid;
-  border-left: 10px solid #cfbabb;  
-  background: var(--highlight);
+  border-left: 5px solid #cfbabb;  
 }
 
 blockquote > p {
   margin: 1rem;
+  font-size: 15px;
+  letter-spacing: 0.05em;
 }
 
 .about {

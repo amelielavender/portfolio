@@ -39,12 +39,12 @@
 
 body {
   color: var(--paragraph-text);
-  font-size: 125%;
-  line-height: 1.5;
+  font-size: 1rem;
   max-width: 66%; 
   margin: 0 auto;
   font-family: "Atkinson Hyperlegible", sans-serif;
   background: var(--main-bg); 
+  overflow-x: hidden;
 }
 
 .wrapper {

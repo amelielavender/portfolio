@@ -1,20 +1,21 @@
 /* cozy hugo theme: headers.css */
 
+h1, h2, h3 {
+  font-family: "Barlow Condensed";
+  letter-spacing: 0.05em;
+  display: block;
+  margin: 0;
+}
+
 h1 {
   text-transform: uppercase;
-  margin-bottom: 0;
-  font-family: Barlow Condensed;
+  font-weight: 500;
 }
 
-h2 {
-  display: inline-block;
+h2, h3 {
   margin: 0;
-  font-family: Barlow Condensed;
-  font-weight: 300;
-}
-
-h3 {
-  font-weight: 400;
+  font-variant: small-caps;
+  font-size: 125%;
 }
 
 h4 {
