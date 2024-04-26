@@ -34,6 +34,8 @@ nav#TableOfContents {
   padding: 1rem;
   font-size: 15px;
   letter-spacing: 0.05em;
+  float: left;
+  max-width: 50%;
 }
 
 nav#TableOfContents > ul {
