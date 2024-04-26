@@ -5,8 +5,8 @@
   margin-bottom: 1rem;
 }
 
-.post-snippet h3 {
- text-transform: uppercase;
- font-family: Barlow Condensed;
- margin-bottom: 0.25rem;
+.post-snippet time {
+  font-size: 90%;
+  margin-left: 15px;
 }
+
