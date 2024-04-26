@@ -31,19 +31,22 @@ ul.main-menu {
 
 nav#TableOfContents {
   display: grid;
-  background: var(--code-bg);
-  margin-right: 1rem ;
   padding: 1rem;
-  float: left;
+  font-size: 15px;
+  letter-spacing: 0.05em;
 }
 
 nav#TableOfContents > ul {
-  border-block: double;
+  border-block: double var(--link-visited);
   list-style-type: numbered;
   margin: 0.5rem;
   padding: 1rem;
 }
 
-nav#TableOfContents > ul > li > ul {
-  padding-left: 1rem;
+nav#TableOfContents > ul > li > ul { 
+  padding: 0 10px;
+}
+
+nav#TableOfContents > ul > li > ul > li > ul { 
+  padding: 0 15px;
 }
