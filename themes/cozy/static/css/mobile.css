@@ -32,7 +32,8 @@
 
   nav#TableOfContents {
     margin: 0 auto;
-    float: none;
+    float: none !important;
+    max-width: 100% !important;
   }
 
   p > img {
