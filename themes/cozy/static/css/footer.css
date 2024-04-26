@@ -33,6 +33,7 @@ footer .mochi {
   background: url('/mochi-web.svg') no-repeat center;
   background-size: contain;
   grid-column-end: 4;
+  grid-row-start: 2;
 }
 
 
