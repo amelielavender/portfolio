@@ -51,6 +51,7 @@ body {
   height: 100%;
   background-color: var(--content-bg);
   padding: 20px;
+  padding-top: 0px;
 }
 
 
