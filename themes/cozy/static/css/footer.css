@@ -5,13 +5,16 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--hls-borders);
   clear: both;
-  padding: 1rem;
+  margin-top: 4rem;
+  padding: 4rem;
 }
 
 footer .copyright {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  color: var(--hls-borders);
+  margin-top: 3rem;
 }
 
 .footer-menu, .footer-menu > ul {
