@@ -29,8 +29,8 @@ the Official inochi2d community discord server. you can get real time help and a
 
 ### videos
 
-#### [How to Rig a Vtuber Model by Dragonator96](https://www.youtube.com/watch?v=wNwoKXeqtQY)
-Dragonator96 shows you the general steps for rigging a vtuber and setting it up in OBS. uses an older version of both creator and session but much of it still applies to 0.83.
+#### [How to Rig a Vtuber Model](https://www.youtube.com/watch?v=wNwoKXeqtQY)
+Dragonator96 shows you the general steps for rigging a vtuber and setting it up in OBS. uses an older version of both creator and session but much of it still applies to 0.8.3.
 
 #### [Rigging by seagetch/seagetty](https://discord.com/channels/855173611409506334/855173611409506337/1123160353421930526)
 discord link
@@ -45,7 +45,19 @@ a youtube playlist by yuçuna that shows you everything right from the beginning
 #### [rig with me by navy prince](https://www.youtube.com/watch?v=KcOxxSNwFLs)
 recording of a rigging livestream. 
 
+#### [rigging vods](https://www.youtube.com/playlist?list=PLHSSzKuby9Jj4GFl1K3YI0r-pT8VJSAqp)
+by arteno enjo. another stream vod. 
+
 ## how do i...?
+
+### open inochi creator on macOS?
+
+as of 0.8.3, inochi creator needs some manual massaging to open on macOS. please refer to the following steps in order to get creator to see SDL2 properly.
+
+1. Right click Inochi Creator, Show package contents
+2. navigate to Contents/Frameworks
+3. rename `libSDL2-2.0.dylib` to `libSDL2.dylib` 
+(via Luna)
 
 ### work with flip pairings?
 {{% aside %}}
@@ -92,13 +104,13 @@ also by navy prince
 ## external software 
 ### tracking
 #### [puppetstring](https://ar14.itch.io/puppetstring)
-desktop webcame tracking solution for inochi session. you can use various things to control your rig with this software, including mouse tracking, face-tracking, button toggles and more. 
+desktop webcam tracking solution for inochi session. you can use various inputs to control your rig with this software, including mouse tracking, face-tracking, button toggles and more. if you care, by the way, PS is *not* open source.  
 
 #### [OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)
-Robust realtime face and facial landmark tracking on CPU with Unity integration
+"Robust realtime face and facial landmark tracking on CPU with Unity integration"
 
 #### [VtubeStudio](https://denchisoft.com/)
-VTube Studio is an app for Virtual YouTubers that makes it easy and fun to bring your own Live2D models to life.
+"VTube Studio is an app for Virtual YouTubers that makes it easy and fun to bring your own Live2D models to life."
 
 ### dependencies
 #### [ffmpeg](https://ffmpeg.org/download.html) 
@@ -106,6 +118,12 @@ VTube Studio is an app for Virtual YouTubers that makes it easy and fun to bring
 ## tips and tricks
 
 ### L2D tuts applicable to inochi
+{{% aside %}}
+i've not vetted or watched any of these live2d tutorials. proceed at your own risk?
+{{% /aside %}}
 ### rigging tips
 ### fun effects
+[rigging a 90 degree head turn](https://youtu.be/LKPhURDQbh4?si=Q4Zy1yRLnaAGX-Cx)
+cool as hell tbh
+
 sorry i got bored here. TODO
