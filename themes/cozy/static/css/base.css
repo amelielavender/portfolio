@@ -24,12 +24,12 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg: #2e2e3b;
-    --content-bg: #2e2e3b;
-    --hls-borders: #7d7f89;
+    --content-bg: var(--main-bg);
+    --hls-borders: #494464;
     --site-nav: #adb6a9;
     --link: #aaa; 
     --link-visited: #ddbfc0;
-    --paragraph-text: #fbd7ea; 
+    --paragraph-text: #f7d4d2; 
     --code-bg: #303446;
     --code-fg: var(--paragraph-text);
     --aside-text: var(--paragraph-text);
