@@ -19,6 +19,7 @@
   --aside-shadow: #c0d8f2;
   --aside-text: #494464;
   --blockquote: #eee;
+  --copyright: #aaa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,6 +35,7 @@
     --code-fg: var(--paragraph-text);
     --aside-text: var(--paragraph-text);
     --blockquote: var(--site-nav);
+    --copyright: #666;
  }
 }
 
