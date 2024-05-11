@@ -19,6 +19,7 @@ enableGitInfo = true
     unsafe = true
   [markup.tableOfContents]
     endLevel = 4
+    ordered = true
   [markup.goldmark.extensions.cjk]
     enabled = true
   [markup.highlight]

@@ -38,17 +38,17 @@ nav#TableOfContents {
   max-width: 50%;
 }
 
-nav#TableOfContents > ul {
+nav#TableOfContents > ol {
   border-block: double var(--link-visited);
   list-style-type: numbered;
   margin: 0.5rem;
   padding: 1rem;
 }
 
-nav#TableOfContents > ul > li > ul { 
+nav#TableOfContents > ol > li > ol { 
   padding: 0 10px;
 }
 
-nav#TableOfContents > ul > li > ul > li > ul { 
+nav#TableOfContents > ol > li > ol > li > ol { 
   padding: 0 15px;
 }
