@@ -13,7 +13,7 @@ footer .copyright {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
-  color: var(--hls-borders);
+  color: var(--copyright);
   margin-top: 3rem;
 }
 
@@ -33,6 +33,7 @@ footer .mochi {
   background: url('/mochi-web.svg') no-repeat center;
   background-size: contain;
   grid-column-end: 4;
+  grid-row-start: 2;
 }
 
 
