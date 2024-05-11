@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
+<h1 class="list-title">{{ .Title }}</h1>
 
 {{ .Content }}
 
@@ -15,4 +15,4 @@
 </article>
 {{ end }}
 
-{{ partial "footer.html" . }}
+{{- partial "footer.html" . -}}

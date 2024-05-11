@@ -13,6 +13,10 @@ h1 {
   line-height: 1.2;
 }
 
+h1.list-title {
+  margin-bottom: 2rem;
+}
+
 .content > article > h1 {
   font-size: 200%;
 }

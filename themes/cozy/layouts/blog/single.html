@@ -2,28 +2,34 @@
 
 <article>
   <h1>{{ .Title }}</h1> 
-  <p>{{.WordCount}} words | {{ .ReadingTime }} minute read</p>
+    <p>{{.WordCount}} words | {{ .ReadingTime }} minute read</p>
+  
+  <section id="content">
+    {{ if (gt .WordCount 400 ) }}
+      {{ .TableOfContents }}
+    {{ end }}
 
-  {{ if (gt .WordCount 400 ) }}
+    {{ .Content }}
+  </section> 
 
-    {{ .TableOfContents }}
+  <!-- styles are set in footer.css -->
+  <div id="blog-footer">
+  <!-- TODO: should move this into a partial soon -->
+    {{ with .GetTerms "tags" }}
+      <ul id="tags">
+        {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    
+    {{ with .GetTerms "categories" }}
+      <span id="series"> 
+        this post is part of a series on {{ range . -}} <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+      </span>
+    {{ end }}
+  </div>
 
-  {{ end }}
-
-  {{ .Content }}
 </article>
-
-<!-- TODO: should move this into a partial soon -->
-{{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
-  <ul id="tags">
-    {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-    $taxonomy $tag) -}}
-    <li>
-      <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
-    </li>
-    {{- end -}} {{- end -}}
-  </ul>
-
-{{ end }}
 
 {{ partial "footer.html" . }}

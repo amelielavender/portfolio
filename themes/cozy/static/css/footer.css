@@ -1,5 +1,10 @@
 /* cozy hugo theme: footer.css */
 
+div#blog-footer {
+  float: right;
+  margin-bottom: 4rem;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

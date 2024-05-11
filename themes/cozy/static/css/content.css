@@ -7,6 +7,10 @@
   max-width: 600px;
 }
 
+section#content {
+  margin: 3rem auto;
+}
+
 p {
   margin-top: 0;
 }
