@@ -6,6 +6,7 @@ draft: false
 description: "show rathole"
 images: ['https://ameliemakes.art/blog/rathole/rats_jerma.png'] 
 layout: blog
+categories: ['self-hosting adventures']
 ---
 
 ## bringing it home
