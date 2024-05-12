@@ -43,8 +43,8 @@ enableGitInfo = true
     weight = 0 #sort links by weight ascending.
 [[menu.main]]
     identifier = 'etsy shop'
-    name = 'etsy shop'
-    url = 'https://amelielavender.etsy.com'
+    name = 'blog'
+    url = '/blog/'
     weight = 100
 [[menu.main]]
     identifier = 'comic'
