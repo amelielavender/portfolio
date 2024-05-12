@@ -44,6 +44,7 @@ nav#TableOfContents > ol {
   margin: 0.5rem;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: var(--content-bg); 
 }
 
 nav#TableOfContents > ol > li > ol { 
