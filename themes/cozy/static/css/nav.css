@@ -29,18 +29,21 @@ ul.main-menu {
 
 nav#TableOfContents {
   display: grid;
-  padding: 1rem;
+  margin-left: -50%;
+  padding-left: 10px;
   font-size: 15px;
   letter-spacing: 0.05em;
   float: left;
+  width: 45%;
   max-width: 50%;
 }
 
 nav#TableOfContents > ol {
-  border-block: double var(--link-visited);
+  border-block: 1px solid var(--copyright);
   list-style-type: numbered;
   margin: 0.5rem;
-  padding: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 nav#TableOfContents > ol > li > ol { 
