@@ -1,26 +1,24 @@
 /* cozy hugo theme: nav.css */
 /* styles the main site nav along with article table of contents */
 
-.site-nav {
+#site-nav, .main-menu  {
   display: flex;
 }
 
-.site-nav a {
+#site-nav a {
   display: block;
   padding: 1rem;
   color: var(--site-nav); 
   text-transform: uppercase;
   font-family: Barlow Condensed;
   letter-spacing: 0.05em;
-  text-decoration: none;
 }
 
-.site-nav .home {
+#homepage-link {
   font-weight: bold;
 }
 
 .main-menu {
-  display: flex;
   list-style: none;
   margin: 0 auto;
 }

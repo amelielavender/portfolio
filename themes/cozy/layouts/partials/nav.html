@@ -1,12 +1,13 @@
 <header class="site-header">
   
-  <nav class="site-nav">
+  <nav id="site-nav">
     <ul class="main-menu">
       {{ if not .IsHome}}
-      <a class="home" href="/"> 
+      <a id="homepage-link" href="/"> 
         {{ .Site.Title }}
       </a>
       {{end}}
+
       {{ range.Site.Menus.main }}
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>
