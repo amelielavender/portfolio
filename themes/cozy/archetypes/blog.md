@@ -5,4 +5,5 @@ date: {{ .Date }}
 draft: true
 images: [''] 
 layout: blog
+categories: ['']
 ---

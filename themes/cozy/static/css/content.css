@@ -8,11 +8,16 @@
 }
 
 section#content {
-  margin: 3rem auto;
+  margin: 1.5rem auto;
 }
 
 p {
   margin-top: 0;
+}
+
+sup {
+  vertical-align: top;
+  font-size: x-small;
 }
 
 p > img {
