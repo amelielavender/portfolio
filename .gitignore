@@ -4,7 +4,8 @@ resources/
 .hugo_build.lock
 *.clip
 content/blog/.obsidian/
+content/blog/test
+content/blog/test*
 test.md
 workspace.json
-content/blog/.obsidian/workspace.json
 test.*
