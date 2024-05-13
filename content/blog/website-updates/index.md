@@ -19,8 +19,8 @@ i reduced the font sizes of the site overall, leaving the h1 headings alone for 
 
 the header touches the top of the page and there is now a link to this blog. i removed the horizontal lines surrounding the site navigation because i didn't really have any ideas on how to take them further design-wise; they were just getting in the way. i really wanted to work with them though. too bad!
 
-![dark theme front page](/home-dark.png)
-![light theme front page](/home-light.png)
+![dark theme front page](home-dark.png "dark theme home page")
+![light theme front page](home-light.png "light theme home page")
 
 ## blog-related changes 
 
