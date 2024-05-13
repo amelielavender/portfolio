@@ -1,0 +1,77 @@
+baseURL: ''
+enableEmoji: true
+enableGitInfo: true
+languageCode: en-US
+theme: cozy
+title: amelie makes art
+languages:
+  en:
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English US
+    title: amelie makes art
+    weight: 0
+
+markup:
+  goldmark:
+    extensions:
+      cjk:
+        enabled: true
+    renderer:
+      unsafe: true
+  highlight:
+    style: catppuccin-frappe
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+
+menu:
+  footer:
+    - identifier: blog
+      name: blog
+      url: /blog
+      weight: 1
+    - identifier: github 
+      name: github 
+      url: 'https://github.com/amelielavender'
+      weight: 4
+    - identifier: fedi
+      name: fedi
+      url: 'https://a.sapphic.online'
+      weight: 2
+    - identifier: twitter
+      name: twitter (mostly inactive)
+      url: 'https://twitter.com/amelielavender'
+      weight: 99 
+    - identifier: kofi
+      name: ko-fi
+      url: 'https://ko-fi.com/amelie'
+      weight: 3
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 0
+    - identifier: comic
+      name: tomorrow mourning
+      url: /comics/tomorrow-mourning
+      weight: 1
+    - identifier: blog 
+      name: blog
+      url: /blog/
+      weight: 100
+
+params:
+  description: amelie lavender is a US-based blind artist and illustrator.
+  header: /artwork/illustration%20for%20eeveelution%20zine.png
+  images:
+    - 'https://ameliemakes.art/background.png'
+  logo: /ameliemakesart-light.png
+  mainSections:
+    - blog
+  title: amelie makes art
+  links:
+    git: 'https://github.com/amelielavender/portfolio'
+
+
