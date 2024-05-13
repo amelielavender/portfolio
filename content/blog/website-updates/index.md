@@ -72,6 +72,8 @@ but yeah unfortunately i am built different. ~~i'm worse~~[^3].
 ## li'l ideas
 there are still a bunch of loose ends to tie up before i think i'll feel satisfied with the state of ameliemakes.art and the ameliemakes.art blog. i even found a bunch while writing this post! there are just a lot of "edge cases" i'll need to find and take care of. really, they're not edge cases—they're just things that *i* never use like tables and uh blockquotes with attribution and sourcing. i also am working on my portfolio proper (wow i really AM making art) and looking for ways to lessen my reliance on javascript on the website side. i don't have any real beef with js but i thought seeing what i could achieve with only css could be fun.
 
+i think the real lesson here is that i really should just plan everything i want to do with a website out in advance instead of introducing constant changes whenever i see something i don't like on my live web pages lol
+
 [^1]: alacritty and i3wm btw
 [^2]: [atkinson hyperlegible](https://brailleinstitute.org/freefont "braill institute")
 [^3]: i saw this as an uncredited twitter screenshot PLEASE if anyone find it let me know i have this phrase stuck in my head
