@@ -51,6 +51,15 @@ a:visited {
   color: var(--link-visited);
 }
 
+article p > a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a.footnote-backref {
+  text-decoration: none;
+}
+
 div.img > img[itemprop="thumbnail"] {
   width: 100%;
 }

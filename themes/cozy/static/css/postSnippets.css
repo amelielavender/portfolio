@@ -1,6 +1,14 @@
 /* cozy hugo theme: postSnippets.css */
 /* styles list pages where articles are shown */
 
+.post-snippet a {
+  color: var(--paragraph-text)
+}
+
+.post-snippet h3 {
+  font-weight: 300;
+}
+
 .post-snippet {
   margin-bottom: 1rem;
 }
