@@ -11,36 +11,39 @@ title       = .Title
 
 */ -}}
 
-{{/* find the file in our page bundle via its .Destination */}}
-
+{{- /* find the file (a resource object) in our page bundle via its .Destination */ -}}
 {{ $img := .Page.Resources.GetMatch .Destination }}
-{{ $url := $img.RelPermalink | safeURL }}
 
-{{/* create a thumbnail if pic is huge*/}}
-
-<figure class="post-fig">
-  <a href="{{ $url }}" title="click to view full size">
-  {{ if gt $img.Width 640 }}
-  {{ $thumbnail := $img.Resize "600x" }}
-    <img class="post-img" src="{{ $thumbnail.RelPermalink | safeURL }}" 
-  {{ else if gt $img.Height 1000 }}
-  {{ $thumbnail := $img.Resize "x600"}}
-    <img class="post-img" src="{{ $thumbnail.RelPermalink | safeURL }}"
-  {{ else }}
-    <img class="post-img" src="{{ $url }}"
-  {{ end }}
-    {{ with .Text }}
-      alt="{{ . }}"
+{{- /* 
+inside the with block, the context becomes the resource object, so we must pass in the actual page's context with the dollar sign. 
+otherwise, the template will try to use our methods on the wrong object. 
+*/ -}}
+{{ with $img }}
+  {{ $url := $img.RelPermalink | safeURL }}
+  
+  <figure class="post-fig">
+    <a href="{{ $url }}" title="click to view full size">
+    {{/* create a thumbnail if pic is huge*/}}
+    {{ if or (gt $img.Width 640) (gt $img.Height 1000) }}
+    {{ $thumbnail := $img.Fit "600x600" }}
+      <img class="post-img" src="{{ $thumbnail.RelPermalink | safeURL }}" 
+    {{ else }}
+      <img class="post-img" src="{{ $url }}"
     {{ end }}
-    {{ with .Title }}
-      title="{{ . }}"
-    {{- end -}}
-    >
-  </a>
-  <figcaption>
-    {{ with .Title }}
-      {{ . | markdownify }}
-    {{- end -}}
-  </figcaption>
-</figure>
-
+      {{ with $.Text }}
+        alt="{{ . }}"
+      {{ end }}
+      {{ with $.Title }}
+        title="{{ . }}"
+      {{- end -}}
+      >
+    </a>
+    <figcaption>
+      {{ with $.Title }}
+        {{ . | markdownify }}
+      {{- end -}}
+    </figcaption>
+  </figure>
+{{ else }}
+  <p style="background:yellow;color:black;text-align:center;">image resource not found. does it exist? check for typos.</p>
+{{ end }}
