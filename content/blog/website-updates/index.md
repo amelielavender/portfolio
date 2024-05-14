@@ -2,7 +2,7 @@
 title: "Website Changes"
 tags: ['updates', 'hugo', 'static site generators']
 date: 2024-05-12T14:15:46-04:00
-draft: true
+draft: false 
 images: ['/background.png'] 
 layout: blog
 ---
@@ -11,7 +11,7 @@ i felt like i shouldn't leave my poor li'l blog alone for too long so i figured 
 
 ## overall look and feel
 
-oreiginally i was using an example hugo skeleton theme to build off of but eventually i ended up with enough original content™ to basically call this my own theme! i named it *cozy* after the clip studio paint brushes i made, also named *cozy*. maybe someday *cozy* will because streamlined, refined, and cool enough to be released as a theme on its own in the wild. kinda doubt it. at least with *cozy's* inception (more like a soft launch?) i finally added a css query for `prefers-color-scheme: dark` so now the site's look will change depending on you've set your theme preference in your browser to dark or light. 
+oreiginally i was using a hugo skeleton theme to build off of but eventually i ended up with enough original content™ to basically call this my own theme! i named it *cozy* after the clip studio paint brushes i made, also named *cozy*. maybe someday *cozy* will because streamlined, refined, and cool enough to be released as a theme on its own in the wild. kinda doubt it. at least with *cozy's* inception (more like a soft launch?) i finally added a css query for `prefers-color-scheme: dark` so now the site's look will change depending on you've set your theme preference in your browser to dark or light. 
 
 the dark mode is actually based on a color palette i use for my terminal and window manager theme[^1]. the light mode is just because i love a dusty pastel pink. i got rid of the tiling background image because honestly, i wasn't too in love with it.
 
@@ -67,12 +67,16 @@ ok i just checked and i guess i didn't need it but also some months ago when i t
 
 anyway, using hugo would probably be a lot less headache if i wasn't Like This and desperately needed to make a theme of my own *and* mold it around my needs. if you just want to have a blog, hugo is extremely simple to set up. you just install the hugo binary, make a folder, `cd` into the folder and initalize the site with one command. then you can either pick a pre-made theme or use hugo's skeleton theme and that's it. all you need to do is create text files in a folder named `content`.
 
+{{< aside >}} when i started using hugo, there wasn't even a skeleton theme you could initialize to study. that was an addition in hugo 0.118.0. {{</ aside >}}
+
 but yeah unfortunately i am built different. ~~i'm worse~~[^3]. 
 
 ## li'l ideas
 there are still a bunch of loose ends to tie up before i think i'll feel satisfied with the state of ameliemakes.art and the ameliemakes.art blog. i even found a bunch while writing this post! there are just a lot of "edge cases" i'll need to find and take care of. really, they're not edge cases—they're just things that *i* never use like tables and uh blockquotes with attribution and sourcing. i also am working on my portfolio proper (wow i really AM making art) and looking for ways to lessen my reliance on javascript on the website side. i don't have any real beef with js but i thought seeing what i could achieve with only css could be fun.
 
 i think the real lesson here is that i really should just plan everything i want to do with a website out in advance instead of introducing constant changes whenever i see something i don't like on my live web pages lol
+
+also man i really need to make an image render hook that resizes images instead of letting browsers raw dog them
 
 [^1]: alacritty and i3wm btw
 [^2]: [atkinson hyperlegible](https://brailleinstitute.org/freefont "braill institute")
