@@ -11,7 +11,7 @@ i felt like i shouldn't leave my poor li'l blog alone for too long so i figured 
 
 ## overall look and feel
 
-oreiginally i was using a hugo skeleton theme to build off of but eventually i ended up with enough original content™ to basically call this my own theme! i named it *cozy* after the clip studio paint brushes i made, also named *cozy*. maybe someday *cozy* will because streamlined, refined, and cool enough to be released as a theme on its own in the wild. kinda doubt it. at least with *cozy's* inception (more like a soft launch?) i finally added a css query for `prefers-color-scheme: dark` so now the site's look will change depending on you've set your theme preference in your browser to dark or light. 
+originally i was using a hugo skeleton theme to build off of but eventually i ended up with enough original content™ to basically call this my own theme! i named it *cozy* after the clip studio paint brushes i made, also named *cozy*. maybe someday *cozy* will because streamlined, refined, and cool enough to be released as a theme on its own in the wild. kinda doubt it. at least with *cozy's* inception (more like a soft launch?) i finally added a css query for `prefers-color-scheme: dark` so now the site's look will change depending on you've set your theme preference in your browser to dark or light. 
 
 the dark mode is actually based on a color palette i use for my terminal and window manager theme[^1]. the light mode is just because i love a dusty pastel pink. i got rid of the tiling background image because honestly, i wasn't too in love with it.
 
@@ -77,6 +77,10 @@ there are still a bunch of loose ends to tie up before i think i'll feel satisfi
 i think the real lesson here is that i really should just plan everything i want to do with a website out in advance instead of introducing constant changes whenever i see something i don't like on my live web pages lol
 
 also man i really need to make an image render hook that resizes images instead of letting browsers raw dog them
+
+{{< aside >}}
+hello future me from one day later here. [i did it](https://github.com/amelielavender/portfolio/blob/main/themes/cozy/layouts/blog/_markup/render-image.html "code on github"). it's very ugly. please don't laugh.
+{{</ aside >}}
 
 [^1]: alacritty and i3wm btw
 [^2]: [atkinson hyperlegible](https://brailleinstitute.org/freefont "braill institute")
