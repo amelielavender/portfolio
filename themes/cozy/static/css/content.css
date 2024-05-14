@@ -25,9 +25,16 @@ article a[href^="http"]::after {
   font-size: small;
 }
 
-p > img {
-  border: 1px solid #494464;
-  width: 75%;
+.post-fig {
+  margin: 2rem auto;
+  display: block;
+  font-size: 15px;
+}
+
+.post-img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 blockquote {
