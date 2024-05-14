@@ -1,7 +1,7 @@
 ---
 title: "Website Changes"
 tags: ['updates', 'hugo', 'static site generators']
-date: 2024-05-12T14:15:46-04:00
+date: 2024-05-13T22:15:46-04:00
 draft: false 
 images: ['/background.png'] 
 layout: blog
