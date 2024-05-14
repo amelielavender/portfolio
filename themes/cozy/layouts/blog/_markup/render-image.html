@@ -1,0 +1,46 @@
+{{- /* from the hugo docs:
+A Markdown image has three components: the image description, the image destination, and optionally the image title.
+
+![white kitten](/images/kitten.jpg "A kitten!")
+  ------------  ------------------  ---------
+  description      destination        title
+
+description = .Text
+destination = .Destination
+title       = .Title
+
+*/ -}}
+
+{{/* find the file in our page bundle via its .Destination */}}
+
+{{ $img := .Page.Resources.GetMatch .Destination }}
+{{ $url := $img.RelPermalink | safeURL }}
+
+{{/* create a thumbnail if pic is huge*/}}
+
+<figure class="post-fig">
+  <a href="{{ $url }}" title="click to view full size">
+  {{ if gt $img.Width 640 }}
+  {{ $thumbnail := $img.Resize "600x" }}
+    <img class="post-img" src="{{ $thumbnail.RelPermalink | safeURL }}" 
+  {{ else if gt $img.Height 1000 }}
+  {{ $thumbnail := $img.Resize "x600"}}
+    <img class="post-img" src="{{ $thumbnail.RelPermalink | safeURL }}"
+  {{ else }}
+    <img class="post-img" src="{{ $url }}"
+  {{ end }}
+    {{ with .Text }}
+      alt="{{ . }}"
+    {{ end }}
+    {{ with .Title }}
+      title="{{ . }}"
+    {{- end -}}
+    >
+  </a>
+  <figcaption>
+    {{ with .Title }}
+      {{ . | markdownify }}
+    {{- end -}}
+  </figcaption>
+</figure>
+
