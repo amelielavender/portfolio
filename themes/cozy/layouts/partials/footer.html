@@ -4,19 +4,21 @@
     <div class="footer-links">
     <h3>say hello!</h3>
     <ul class=footer-menu>
-      {{ range.Site.Menus.footer }}
+      {{ range .Site.Menus.footer }}
         <li>
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>
+      <p>
+      <a href="#top">top of page ↑</a>
+      </p>
   </div>
   <div class="mochi" role="img" aria-label="stylized chibi of my calico cat named Mochi">
   </div>
   <div class="copyright">
     <p>artwork &copy; {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
   
-
   {{ if $.GitInfo }}
   <p>
     this page's last commit: <a href="{{ .Site.Params.Links.git }}">

@@ -30,7 +30,7 @@
     margin: 0 auto;
   }
 
-  nav#TableOfContents {
+  details.toc {
     margin: 0 auto 1.5rem auto !important;
     padding-left: 0 !important;
     Float: none !important;

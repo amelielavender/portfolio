@@ -27,8 +27,12 @@ ul.main-menu {
   padding: 0;
 }
 
-nav#TableOfContents {
-  display: grid;
+.show-hide { 
+  cursor: pointer;
+  text-align: center;
+}
+
+details.toc {
   margin-left: -50%;
   padding-left: 10px;
   font-size: 15px;
@@ -38,9 +42,8 @@ nav#TableOfContents {
   max-width: 50%;
 }
 
-nav#TableOfContents > ol {
+nav#TableOfContents > ol, .show-hide {
   border-block: 1px solid var(--copyright);
-  list-style-type: numbered;
   margin: 0.5rem;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -54,3 +57,6 @@ nav#TableOfContents > ol > li > ol {
 nav#TableOfContents > ol > li > ol > li > ol { 
   padding: 0 15px;
 }
+
+#TableOfContents:target {
+  display: 

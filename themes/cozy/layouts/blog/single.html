@@ -6,7 +6,10 @@
   
   <section id="content">
     {{ if (gt .WordCount 400 ) }}
-      {{ .TableOfContents }}
+    <details open class="toc">
+      <summary class="show-hide">toggle table of contents</summary> 
+        {{ .TableOfContents }}
+    </details>
     {{ end }}
 
     {{ .Content }}
