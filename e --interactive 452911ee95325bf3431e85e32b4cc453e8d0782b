@@ -1,0 +1,1442 @@
+[33mcommit 4c461ad87dde5d21b85603de1ddef823516b8c28[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jun 4 00:44:28 2024 -0400
+
+    delete assets
+
+[33mcommit 408a11fb7f09e47faee4633f0088c7be8ae71236[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jun 4 00:43:00 2024 -0400
+
+    togglable toc
+
+[33mcommit 3c391ba8b2f35a3871410089eaac39eafdbe1ab9[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 18 03:15:04 2024 -0400
+
+    add back to top link
+
+[33mcommit 452911ee95325bf3431e85e32b4cc453e8d0782b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed May 15 02:45:46 2024 -0400
+
+    make table of contents toggleable
+
+[33mcommit 09ed95023b9b518ef2970d1e0c8917603e0dbcec[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue May 14 15:10:58 2024 -0400
+
+    make image render hook less clunky
+
+[33mcommit 43d66c9ca3dcba8d90c199229d1769bcceb48ba3[m[33m ([m[1;31mremote/main[m[33m)[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue May 14 13:57:39 2024 -0400
+
+    update blog post
+
+[33mcommit b5741073b709769bfdcf9f1eb989a83a638079d3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue May 14 13:53:20 2024 -0400
+
+    add logic to list view page
+
+[33mcommit 70920cd392ad5a9342c2257ca0df86aaa6a311f9[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue May 14 13:53:04 2024 -0400
+
+    add image render hook
+
+[33mcommit f9502a00673deee5a0e3cf63dc012a77beaaf841[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue May 14 13:52:24 2024 -0400
+
+    clean up leftover files
+
+[33mcommit d1dfab091f31340040536da4cafa9daa5ae6805d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 23:04:25 2024 -0400
+
+    bleeeeugh
+
+[33mcommit d0d39b8bd01b65252c551bb1e807224b92a9abb7[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 22:40:13 2024 -0400
+
+    publish blog post
+
+[33mcommit 33952745454b2dff4c87b7c940b99ad3faacee13[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 20:38:21 2024 -0400
+
+    edit rss feed
+
+[33mcommit bfcb9e0be0704fa6c8eb80d038c2b7d0236ba00f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 16:16:01 2024 -0400
+
+    change links again
+
+[33mcommit 0ee714260fda378d4283ace77a41cdd1a93684e6[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 15:26:38 2024 -0400
+
+    update gitignore
+
+[33mcommit 36e374b0471bfa0cefc0d4342568fc9bf61fde93[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 15:25:08 2024 -0400
+
+    delete test posts
+
+[33mcommit e329c866a810c9834fab6c2f2e313e4b4c5746f2[m
+Merge: beff80e 737bca6
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 15:21:06 2024 -0400
+
+    Merge branch 'blog-index'
+
+[33mcommit 737bca60c56fab09db26cbc92aff338116084fd8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 15:20:45 2024 -0400
+
+    edit blog description
+
+[33mcommit beff80e2b809d82c36e0329441ad81c10a599afc[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 15:16:04 2024 -0400
+
+    finish blog post ig
+
+[33mcommit 24c8229f9b01ddb115e3ce156f8f9407e3ff7045[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 14:55:30 2024 -0400
+
+    mess around with link styling
+
+[33mcommit 61139cf9fe645575ea8be50f48d579123384da5c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 13:17:05 2024 -0400
+
+    untrack obsidian folder
+
+[33mcommit dd6f7e6999a612f7bb69cc73d14d7954be947596[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 03:21:42 2024 -0400
+
+    add image titles to blog post
+
+[33mcommit 3372230b18c99e8a0fa22303d72f32dac2f58d2e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon May 13 03:20:20 2024 -0400
+
+    switch to yaml for the funny
+
+[33mcommit ac52be51d42051be398c941d727d326ba41ba83c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 21:28:06 2024 -0400
+
+    organize blog bundles and tweak css
+
+[33mcommit e541e8a4f45d5e4fd4b054d01784fe6cce6bfbc8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 17:16:28 2024 -0400
+
+    edit blog post visuals
+
+[33mcommit 8dc48f389cb697cb8bad1099addde590b9f2c1d9[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 15:10:09 2024 -0400
+
+    clean up files, add background color to toc
+
+[33mcommit e4b55428fc1e1dded4f631ed912bd92b1f662d03[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 14:10:32 2024 -0400
+
+    change nav links
+
+[33mcommit ce055c18670647b8c006aec14487ebf482301489[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 14:10:19 2024 -0400
+
+    edit toc postiion on page
+
+[33mcommit f2d26524973114ddba432a74f9746b5241d4d6e2[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 01:27:17 2024 -0400
+
+    add blog to a category
+
+[33mcommit 4a6508dba079273f734d5bf3a14a2e5595fa5b5b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun May 12 01:22:54 2024 -0400
+
+    edit nav ids
+
+[33mcommit d56ec69916dc8888efe9bb8652f5281a13122a02[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 11 16:24:11 2024 -0400
+
+    change table of contents to ordered list
+
+[33mcommit 4ab43310401f920f73bdc4cad787b82608a3e1e8[m[33m ([m[1;32mtheme-refactor[m[33m)[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 11 16:12:30 2024 -0400
+
+    edit blog tags and margins
+
+[33mcommit 07ffcdc095847b4056a7e7b1ab96171f76e9304a[m[33m ([m[1;32mno-header[m[33m)[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 11 14:25:15 2024 -0400
+
+    add another test
+
+[33mcommit 6d5caa1d93feeba31eb3214227b3626caeae715b[m
+Merge: 8ecad38 5763bab
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 11 13:51:09 2024 -0400
+
+    Merge branch 'main' into no-header
+
+[33mcommit 8ecad38c2abf19e55743680c00338e5303cdf1ea[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat May 11 13:51:01 2024 -0400
+
+    remove weird random spaces
+
+[33mcommit 5763bab030a9ebb06c814008a5170619158e2f9b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Apr 30 02:20:30 2024 -0400
+
+    edit footer color
+
+[33mcommit ea563894c31c8446d6bfef8be287613267db066f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Apr 30 02:18:22 2024 -0400
+
+    change hl color
+
+[33mcommit 7ff676f42a3a3e2e4196694b7587b9a364fa34e5[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Apr 29 00:22:00 2024 -0400
+
+    narrow text column
+
+[33mcommit d56e0f5fa8953385357bbb96f2e9b2fdc0f40ea0[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Apr 28 23:56:31 2024 -0400
+
+    edit typography
+
+[33mcommit 3fc999a1749eb7bd2aafbf57e821455f35029304[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:47:38 2024 -0400
+
+    fix css not playing nice with mobile :/
+
+[33mcommit 691fe72003c4e61c217adebf79646e5378dc5766[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:37:48 2024 -0400
+
+    change mobile header image
+
+[33mcommit a7c0ee9292692f940cfb3acaa56b9733d7089e1d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:34:35 2024 -0400
+
+    move mochi
+
+[33mcommit 3a473d213a67b3fb066c5fd19d3eefd468266741[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:31:19 2024 -0400
+
+    margin-top 0 the header image
+
+[33mcommit 43c8dee3e5ee5016407cecc639118cd35ee3f299[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:26:28 2024 -0400
+
+    update README
+
+[33mcommit fd68c77479789c734d3d2b9668cb63ba1946f599[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:10:43 2024 -0400
+
+    indent dates and get ride of redundant properties
+
+[33mcommit 2f8b35a134f3847fd68eb580f2124951b13c3cb9[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:59:52 2024 -0400
+
+    change letter spacing
+
+[33mcommit cec63c45dda8bf1b8e7984431e359fd75a127e82[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:15:11 2024 -0400
+
+    make some stuff more concise
+
+[33mcommit f340196b88d9ba30cdb8956e5f3ba2a0b852ffa2[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 22:10:43 2024 -0400
+
+    indent dates and get ride of redundant properties
+
+[33mcommit 7b8f04a372bacb460440e0fa0750562b47a48979[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:59:52 2024 -0400
+
+    change letter spacing
+
+[33mcommit e6be3c7f54be716f4e7838d042bf4e17cb7b9db1[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:57:12 2024 -0400
+
+    Revert "remove header image"
+    cuz i forgot to switch branches *shrug*
+    
+    This reverts commit 633e2a49a93f207039d3917793b970911377b7f3.
+
+[33mcommit 01f4f27ae8fc5609d39db57af6e56b84e0f1ea62[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:55:25 2024 -0400
+
+    add a max-width to toc
+
+[33mcommit ec0c85f22e2779df2b80e1ef48a0a56fbd7e76de[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:54:39 2024 -0400
+
+    give footer content more space
+
+[33mcommit 633e2a49a93f207039d3917793b970911377b7f3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:34:20 2024 -0400
+
+    remove header image
+
+[33mcommit 90a7f4679eca02631894eb48c2727c594e8ddd2b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 21:00:46 2024 -0400
+
+    add nonbreaking space to headings' anchor links
+
+[33mcommit 6086bce5bd9137697fc71347eecbf98106637cbd[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 20:59:43 2024 -0400
+
+    change table of contents and aside box
+
+[33mcommit 11e54e22725459f4b15aa842011c68d2ba53ffc7[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 20:32:53 2024 -0400
+
+    change from font-variant property (no small caps feature)
+
+[33mcommit 1174790b58a1c9a63609c16a220afa4507269d5b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 20:06:39 2024 -0400
+
+    change links and blockquotes
+
+[33mcommit 4b838b553398fce30cd9c4e335518074ed38aa21[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Apr 25 03:03:02 2024 -0400
+
+    change blog and nav typography
+
+[33mcommit 9714233a3424819780b51f54ee4f88a4380d39d7[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Feb 18 18:45:47 2024 -0500
+
+    add a bit more to i2d resources
+
+[33mcommit 181216edaae5be3473e58ab9c5027ef30f400827[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Feb 18 15:28:47 2024 -0500
+
+    new blog post
+
+[33mcommit 5ca536862049c8d205f5174ccdb395bf2ecd8db6[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Feb 18 15:28:24 2024 -0500
+
+    change css
+
+[33mcommit f1b9a5bfb676a8a694c0a2983f4d587a215685ed[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Feb 15 00:58:44 2024 -0500
+
+    move license to theme folder
+
+[33mcommit fa2ed2e0a372833aaa781b2075c89c7a7dc8c875[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:42:21 2024 -0500
+
+    edit margin on text and general content, check blockquote color for dark
+    theme
+
+[33mcommit 2664b6c43841f3047cb4a155ed8080a0f70bf6b3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:42:21 2024 -0500
+
+    edit margin on text and general content, check blockquote color for dark
+    theme
+
+[33mcommit b3852331e02c5060e7df6c71afafd4cddcf7908f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:42:21 2024 -0500
+
+    edit margin on text and general content
+
+[33mcommit 1716a25b55215b8a505d7e937e1617a3ba9ffe64[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:40:16 2024 -0500
+
+    match highlight colors to ctp codeblocks
+
+[33mcommit 10f69aa8c1191dea031359a9c653af0e315a1c7a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:32:08 2024 -0500
+
+    remove bg img
+
+[33mcommit 80877d9e25a07ad15e1afc26c782914852987526[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 20:30:36 2024 -0500
+
+    adjust html aside for dark theme
+
+[33mcommit aed31a4e51f485e5b9c54dc47741c0a9051644b8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 18:34:14 2024 -0500
+
+    add css variable and media-prefers-scheme
+
+[33mcommit 7c5d92321d4ef63025706feb59b8aabb0225799c[m
+Merge: c2b92e3 a7a2a92
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 17:40:26 2024 -0500
+
+    Merge branch 'main' into theme-refactor
+
+[33mcommit c2b92e35cb3b15ced1fa0437eb761af5b600de7e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Feb 14 17:27:42 2024 -0500
+
+    update gitignore
+
+[33mcommit a7a2a9218652a4c2cd5328ce0914cb19892978c8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Feb 10 23:19:43 2024 -0500
+
+    --amend
+
+[33mcommit 055680fa445deaca8d66a9f7149c85e6f2274997[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Feb 10 22:33:54 2024 -0500
+
+    --amend
+
+[33mcommit 4ec525f3bfc964d906b6bf45627d1fbaec8e4b53[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Feb 10 22:12:23 2024 -0500
+
+    try fix flickering
+
+[33mcommit 62ba9129169d7f87914e5e088b9d387c4c154734[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Feb 10 21:54:10 2024 -0500
+
+    update readme
+
+[33mcommit 7e489c02f9b695254f5a9ccfd713e6fa00645151[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Feb 10 21:54:00 2024 -0500
+
+    organize css
+
+[33mcommit 39a0b3c610a84fd797a9743073dd5ab5609b66a6[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Feb 8 23:46:50 2024 -0500
+
+    get ready to change theme
+
+[33mcommit b69d6ebf96a087c349bc558c84f63395835a0e09[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Feb 8 23:43:04 2024 -0500
+
+    fix margins on tags
+
+[33mcommit 30d6495ceac543eeef83beb0e831a73e55b42b92[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Feb 8 23:43:04 2024 -0500
+
+    add tags to blog posts
+
+[33mcommit 3408cd870da7a51fb6df056d40732d52163188fb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 4 01:04:24 2023 -0500
+
+    more pain
+
+[33mcommit 58f50ecabc608bbd8b01b6c360fbb1f57aaf55c7[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 4 01:02:36 2023 -0500
+
+    pain
+
+[33mcommit ba257858b65ed6644704723859413f521a2c9fdf[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 15:23:20 2023 -0500
+
+    change meta theme color
+
+[33mcommit 650f7f80709aaaa20c64f4743caabcbaee909edf[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 14:29:14 2023 -0500
+
+    add a theme color
+
+[33mcommit eaa398b9e8582efd79285605f82aaa83ce22c9b3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 14:18:05 2023 -0500
+
+    enable cjk in goldmark
+
+[33mcommit 9657fbc88504a5804309907034159d9478a665c6[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 05:03:43 2023 -0500
+
+    Update rathole.md (#2)
+
+[33mcommit cf786b770767965f47f81f99b1b0fd1b1d1a090b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 03:32:30 2023 -0500
+
+    add twitter card
+
+[33mcommit 27f78db9e71b31cf6ef16990d6f42c9f46948f58[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 03:14:50 2023 -0500
+
+    try absolute url for opengraph
+
+[33mcommit e4d2a75b22e4c658bf01d7760575e287cbe1c5f4[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 03:11:07 2023 -0500
+
+    Revert "try absolute url for opengraph"
+    
+    This reverts commit b329a82131ba7beb5ca1dfef12ee4c968304468a.
+
+[33mcommit b329a82131ba7beb5ca1dfef12ee4c968304468a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 03:07:24 2023 -0500
+
+    try absolute url for opengraph
+
+[33mcommit 6976eb888eaef2564d2564b064de4e56129143d1[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 02:45:29 2023 -0500
+
+    edit blog post
+
+[33mcommit f184aab2de075eac5395cdd75971abf6af47455f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 02:45:29 2023 -0500
+
+    edit blog post
+
+[33mcommit 2a3ecde52f1dc6358c11c759f07b6edc136dae5b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 02:34:48 2023 -0500
+
+    write blog post
+
+[33mcommit e0b0adabde954a03c4b43dbdf31a8889f7a977a6[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 3 02:34:36 2023 -0500
+
+    add some style
+
+[33mcommit fd54b3b1ad6c7b21598be609e0578a28cc073c60[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Dec 2 21:53:19 2023 -0500
+
+    add a custom shortcode
+
+[33mcommit 4292716f6d79c5727a2307a9d918bf2e15544380[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Dec 2 21:12:05 2023 -0500
+
+    add unsafe markup rendering
+
+[33mcommit 3593d53c853a77a6357b7cfb3d4e251e2292358f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Dec 2 19:27:50 2023 -0500
+
+    edit img rendering in blog posts
+
+[33mcommit 973cb1be26a84e75ac955ec85afd70c598ec8836[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Oct 30 02:08:19 2023 -0400
+
+    edit cute footer
+
+[33mcommit 9b6102692712e70460dec36b912460d27177705d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Oct 30 02:08:19 2023 -0400
+
+    edit cute footer
+
+[33mcommit 014ce40e9b68f069d709c3ecad5468f144041ee3[m[33m ([m[1;31mremote/fade[m[33m)[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 18:29:27 2023 -0400
+
+    add a bit of js and style to inline header
+
+[33mcommit 3dd08aa0eb4d5edbd2ac5d031c355f30ecc4896c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 18:14:16 2023 -0400
+
+    fix header again. what a pain
+
+[33mcommit 4d54ef5408b9255e0e59688013a76c4d61e36b18[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 02:34:08 2023 -0400
+
+    make second bg image cover
+
+[33mcommit f42197da8eb1138074292c6d276390f7e34ca09c[m
+Merge: 217c481 ac328a2
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 02:10:40 2023 -0400
+
+    cleaner logic for header images
+
+[33mcommit ac328a2dcbce9fb832f69b18bce52aac995ab3be[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 02:08:56 2023 -0400
+
+    cleaner logic for header images
+
+[33mcommit 217c481d27310a24948ade81221cef5abca968ae[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Oct 27 01:13:07 2023 -0400
+
+    update layouts
+
+[33mcommit c04bcc4bcacc6f534b1a6abe9aa8faedc8fe0952[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Oct 26 17:25:40 2023 -0400
+
+    clean up header.html
+
+[33mcommit e681b8de9cd1e6018198cdad3756fade7d3a278c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Oct 25 23:41:48 2023 -0400
+
+    i am tired of this bs
+
+[33mcommit 7352daf287dec1d9c301834a7209bf432da3b10d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Oct 25 23:41:48 2023 -0400
+
+    edit css
+
+[33mcommit aa879485882716cfea19a4c2bd5da8682b359fc7[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Oct 25 21:31:04 2023 -0400
+
+    move div out of head tag
+
+[33mcommit c89441fa3f05aa024e7f5d2c9e5b40ddf3b02af1[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Oct 25 21:19:24 2023 -0400
+
+    revert "add css fade-in effect fr" and add a fade in fr fr
+    
+    This reverts commit ff5a4ff6ff63dbf984a06ef3e1cc470346d56382.
+
+[33mcommit ff5a4ff6ff63dbf984a06ef3e1cc470346d56382[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Oct 25 20:58:53 2023 -0400
+
+    add css fade-in effect fr
+
+[33mcommit 710b8c60ef84df3311c7836af56761d6a2e37b58[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 22:43:40 2023 -0400
+
+    update readme
+
+[33mcommit 390d248eaad0af1157ee4fe6b7215d50f3464b6f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 22:41:54 2023 -0400
+
+    Revert "figure out readme update later"
+    
+    This reverts commit d9f8e4f3db76e6350d7da6cb90f6e30286ce1757.
+
+[33mcommit 1ec9a7cd7cc56c7651179d31808ae0ad7fb07437[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 22:39:43 2023 -0400
+
+    edit header
+
+[33mcommit 9adcfccb3edc6e7d733011058ea78e7813303ed0[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 22:33:43 2023 -0400
+
+    --amend
+
+[33mcommit 6b00e765f3748d6230fa60e08a2ff98927ab8de1[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 22:29:24 2023 -0400
+
+    add fade-in effect
+
+[33mcommit d9f8e4f3db76e6350d7da6cb90f6e30286ce1757[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 15:04:08 2023 -0400
+
+    figure out readme update later
+
+[33mcommit ca9b9f1e6dfe9965a3dc6c299b0c2dae9ef9ea0c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Oct 24 02:41:08 2023 -0400
+
+    adjust image width in paragraph tags
+
+[33mcommit 97823b9a1e26a9240d90bbfac82418d2e80ee0a5[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Sep 11 21:50:53 2023 -0400
+
+    add rel=me link to header
+
+[33mcommit 501e3fe93fc23e1ce15b6864acfe00c79b456f88[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 21:26:00 2023 -0400
+
+    Revert "update hugo.toml"
+    
+    This reverts commit eb0b19fc7bfa551d494db7157fa733c1d1930f93.
+
+[33mcommit eb0b19fc7bfa551d494db7157fa733c1d1930f93[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 21:21:45 2023 -0400
+
+    update hugo.toml
+
+[33mcommit 16522d696363af20f58ebb272b5f2c01c4b6ae9f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 21:15:21 2023 -0400
+
+    stop netlify from fucking me
+
+[33mcommit 21f729bc240b207bf93b6fca62d96ccef2e49b28[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 21:13:26 2023 -0400
+
+    edit hugo.toml
+
+[33mcommit ddae9f0c97f6fc4c7eb1a773445f766231c3fb38[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 21:08:02 2023 -0400
+
+    canonify urls
+
+[33mcommit 7e99e4d0fec17b8e151c2835edad5d4246c4eb9d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 20:52:48 2023 -0400
+
+    check absolute/relative paths
+
+[33mcommit 3ea21e0e320c1952ea0949910a6e439dcf9f2635[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 20:41:22 2023 -0400
+
+    add opengraph image support
+
+[33mcommit 5a2cc182eb0daa8538e9b43f7a747ba8fa665de2[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 19:33:13 2023 -0400
+
+    edit homepage
+
+[33mcommit 7816586b199ed4f4d4e9d9705a5f53f6bc6fafe9[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 19:21:35 2023 -0400
+
+    rename hugo.toml
+
+[33mcommit 2fb9ff749abc48b68eea9a754acfb1953a776086[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 19:10:33 2023 -0400
+
+    add opengraph supprt
+
+[33mcommit dc858af5f373ad7cd25a2e0fa800b12f9554b6c5[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 03:01:21 2023 -0400
+
+    edit typo
+
+[33mcommit 8e62403a4fda3b53bb6e5be36378e0b0383a0c5b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 02:58:15 2023 -0400
+
+    add gitignore
+
+[33mcommit cc18e63f5db12e3d4e25c9b94b3a89d2d1a24c44[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Sep 1 02:55:50 2023 -0400
+
+    draft blog
+
+[33mcommit 55377f2d3c9cc51ac535693c357fac182170262f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Aug 31 16:57:23 2023 -0400
+
+    add anchor link hook for headers
+
+[33mcommit 9eb7a720ab8d0266b4b45c727878293d5739c85f[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Thu Aug 31 03:30:43 2023 -0400
+
+    Create LICENSE
+    
+    make sure license is uploaded with hugo-easy-gallery
+
+[33mcommit 609c2564a30fb28d4f9b5302dbbecb79b11ad483[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Aug 31 03:03:27 2023 -0400
+
+    update blog css
+
+[33mcommit b5955be385e2da9dcc3f9c4a9d0d8d96b390b957[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 23:16:10 2023 -0400
+
+    update and clean config
+
+[33mcommit e92ca639c69bf888910b8c662e066af9f583944c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 18:40:35 2023 -0400
+
+    edit language code
+
+[33mcommit 10effb128617f1bf29b1a6880b6aa1685959b804[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 18:34:03 2023 -0400
+
+    edit language code
+
+[33mcommit 96995903b87b033a305a57a1218559f77c353fd3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 18:28:16 2023 -0400
+
+    edit rss feeds
+
+[33mcommit a06bfa44e8c379e6001ad430ce3078eaabd9fc95[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 17:47:18 2023 -0400
+
+    add light logo
+
+[33mcommit 8d72302323e7628f4443e4c8273174d7445ae99b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 17:22:10 2023 -0400
+
+    enable gitinfo for footer
+
+[33mcommit b95a1df3b7d2c1581799244652c9750948b52acd[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:44:49 2023 -0400
+
+    remove git status from footer
+
+[33mcommit a21c3e1a8ba31e9ae2d42867d06889816c42ef7d[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:42:15 2023 -0400
+
+    Update footer.html
+
+[33mcommit 922f0c6377f58f52c7d14e25c3f1e013fd25b9d1[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:23:36 2023 -0400
+
+    clean up files
+
+[33mcommit 72fbb48978874141f06915c8b6a2235b1fdaf624[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:22:24 2023 -0400
+
+    edit homepage
+
+[33mcommit d4fa86b61c44a806f88b2967dafab23abc442864[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:11:52 2023 -0400
+
+    new logo
+
+[33mcommit fc24e406c8274fdb16ad9dc9a02ab718ddb8092f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Aug 30 04:08:55 2023 -0400
+
+    add blog related layouts
+
+[33mcommit d564ed0ee6f89c0047d571b36444b75e124f1519[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Aug 29 22:15:25 2023 -0400
+
+    add delugia mono
+
+[33mcommit 9bdfbd0ca5d1dd33ad0159263ac461cc6807ea7a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Aug 29 15:35:18 2023 -0400
+
+    clean up
+
+[33mcommit f03f8d8fb003cd8f7ac64124dac88110015c5639[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Tue Aug 29 03:07:40 2023 -0400
+
+    line breaks
+
+[33mcommit ba69b72d691042d18ac3375dd92a9fc76be1a00f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Aug 29 02:58:08 2023 -0400
+
+    make less ugly
+
+[33mcommit a3813d007b6844b517ea49df4b8f953ad1b6ab0b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Aug 28 19:59:43 2023 -0400
+
+    edit blog index
+
+[33mcommit d2714c62bf6e624c43c4afe688d51a7dd0d558ca[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Jul 26 01:42:19 2023 -0400
+
+    add index.md
+
+[33mcommit a336a8ff0ddaf2b6c2ff861cb3b7f33c5902577d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Jul 26 01:37:57 2023 -0400
+
+    edit gitignore
+
+[33mcommit e875e93d2b08510f57e80dac82f1dbe879d9b312[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Tue Feb 7 03:01:34 2023 -0500
+
+    Update README.md
+
+[33mcommit 16f243549c667db2327228ae9dcd9b348e68bfdf[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Feb 7 02:57:26 2023 -0500
+
+    branch exploded
+
+[33mcommit 4a6e8b2c0355b2de73e16049b12ef570bda3bc97[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Feb 7 02:54:24 2023 -0500
+
+    add license stuff
+
+[33mcommit 6bb62a6c833e44d01b2a9a33b46ed1076ea70b96[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Jan 6 00:49:58 2023 -0500
+
+    organize files
+
+[33mcommit 3ffa261fb43b4e3bcdc76296bc484eda153723e8[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Thu Jan 5 01:09:45 2023 -0500
+
+    dev (#1)
+    
+    * add bg image
+    
+    * update header html
+    
+    * clean up bg
+    
+    * try new logo
+    
+    * add css
+    
+    * add new logo
+    
+    * edit css
+
+[33mcommit b341c0e9333dd322689453e6ce5f65255eb0c457[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:52:35 2023 -0500
+
+    edit nav visuals
+
+[33mcommit d5c09dd27726bd788e336170829181ec11804a2a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:45:30 2023 -0500
+
+    edit tos
+
+[33mcommit fbfaa212a21e4ee7806d78ddb596f91f90817b88[m
+Merge: 6ae10bb c28c68f
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:43:31 2023 -0500
+
+    Merge branch 'dev'
+
+[33mcommit c28c68f52855e289d94ab80d7a69a11af3179553[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:43:03 2023 -0500
+
+    add fonts
+
+[33mcommit 351c2316cbe1d776aeeba7d577b17de60330b084[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:30:45 2023 -0500
+
+    add new font
+
+[33mcommit 6ae10bb3f9be15ce073222124ff4b9fdbf4377b8[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:19:27 2023 -0500
+
+    Update README.md
+
+[33mcommit c371882531e5a130dca2fb679ac8498aac6f6df8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Jan 3 15:17:21 2023 -0500
+
+    edit readme
+
+[33mcommit 14898ce6b0d2c0d43492ddc1503d06ccc9c75b8b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:43:13 2022 -0500
+
+    edit files
+
+[33mcommit d12e18d3928b05a797c10ab8e069ecc79ef9f42b[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:42:19 2022 -0500
+
+    Update README.md
+
+[33mcommit 176241ce1115d95e15d84bfb4fe4ee39cd5c42e2[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:34:05 2022 -0500
+
+    add a comic
+
+[33mcommit c51195f973e9716dd21c78b6c8d95ac817dd82de[m
+Merge: 186cd15 512b875
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:17:51 2022 -0500
+
+    Merge branch 'dev'
+
+[33mcommit 186cd15f367e7d39389f401e7106db885eb990d3[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 15:14:48 2022 -0500
+
+    remove empty dirs
+
+[33mcommit 6bc3e86f0f56771147be69b86574841d9f3d7436[m
+Merge: aadd352 5b734f7
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:14:21 2022 -0500
+
+    resolve conflicts
+
+[33mcommit 5b734f74bcb0c08a13d5c557175ed35d312b05db[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:11:40 2022 -0500
+
+    rebase
+
+[33mcommit d6c2de35246f1f713714228626285fcb9d0e386a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 00:56:10 2022 -0500
+
+    add comics layout dir
+
+[33mcommit 1c3f0c50545cf04476023fbb03eb3937a5c36360[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 14:34:00 2022 -0500
+
+    add favicon files and change header image
+
+[33mcommit aadd352b1d63839a23d179ab907d397cafa5b625[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:08:16 2022 -0500
+
+    merge branch
+
+[33mcommit 37588aaf7a43ef5cff3be23a36a9e1cf047ae002[m
+Merge: ef8fa8a 77046ef
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:04:16 2022 -0500
+
+    Merge branch 'comics'
+
+[33mcommit 77046ef72e15c0c5ec52b00e57677097673a464e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 01:03:52 2022 -0500
+
+    edit comic page
+
+[33mcommit dcd196552d596709b0770cca83d04c977992f397[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 23 00:46:22 2022 -0500
+
+    edit readme
+
+[33mcommit 512b8758d51bfed0509fc246b3d63168c46d729f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 23:18:54 2022 -0500
+
+    change bg color
+
+[33mcommit 404ff15631ccd01d935115f6b5a5c06765bae63a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 22:50:30 2022 -0500
+
+    change h1
+
+[33mcommit ef8fa8a73ac58375adc71ebb0b0518e26f2d805e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 14:34:00 2022 -0500
+
+    add favicon files and change header image
+
+[33mcommit 161a46d4a39ad55af3ff6b5aa003499b1bc5611e[m
+Author: amelielavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 14:07:30 2022 -0500
+
+    Delete .hugo_build.lock
+
+[33mcommit a39a68084974683fc95d92035e3f27c6941f9b9a[m
+Merge: b254fba 46df64c
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 13:51:25 2022 -0500
+
+    Merge branch 'dev'
+
+[33mcommit b254fba5c832c8c135b57d5d402b753a30efc81b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 22 13:51:15 2022 -0500
+
+    update gitignore
+
+[33mcommit 58a175329cf8678d1ab40c1c5bef4e2d76f97adb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 21:40:38 2022 -0500
+
+    change comics around
+
+[33mcommit 5a7965fefe1708bc83dc3a099f0e5afc150ef50f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 19:54:06 2022 -0500
+
+    add inital comic
+
+[33mcommit 0b0e8fbe57a2517ab13676be6bdc79735247c6a5[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 15:14:48 2022 -0500
+
+    remove empty dirs
+
+[33mcommit 57e26a17f11740f22440c5421642c763debb0603[m
+Merge: 7394205 46df64c
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 15:14:19 2022 -0500
+
+    remove empty dirs
+
+[33mcommit 46df64c8390ad1d788b4ca690fc22a17d4a8ad66[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 21 15:06:31 2022 -0500
+
+    change box-shadow color
+
+[33mcommit 2d2375e65b036f201e367342800fcf69afb8c71c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Dec 20 19:00:29 2022 -0500
+
+    i dont remember
+
+[33mcommit a72fa55a7a6924adf552b6afcaf0453a23143b9a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Dec 20 02:36:31 2022 -0500
+
+    change h1
+
+[33mcommit b81f2f0a3c88b4a25550f3a82ddb9ca4da307063[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 16:15:19 2022 -0500
+
+    edit terms of service
+
+[33mcommit d36db44d75fc779e972a465f8ac64b37f96ce547[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 16:12:41 2022 -0500
+
+    change header font weight
+
+[33mcommit b34180c41d87c9820e608c238d0706e3a9201fa9[m
+Merge: 197987f 90e3331
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 16:05:48 2022 -0500
+
+    change font weight
+
+[33mcommit 197987fd6158837f4c0b4d0fb74e48c605191319[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 16:03:30 2022 -0500
+
+    change font weight
+
+[33mcommit 90e3331e9f04de1ab86a7a8493db8b1413afc0eb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 02:22:41 2022 -0500
+
+    fix home link
+
+[33mcommit 97bbdecdfc844467044c46044fdfbf4321b9a934[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 02:06:23 2022 -0500
+
+    edit style
+
+[33mcommit 7394205812fb0ac5803ea857207db78e1aeb6739[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 19 00:59:31 2022 -0500
+
+    add comics page, make comics dirs
+
+[33mcommit bc88e36d6492d5014216c43a11f9946b321959cb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 16 16:37:29 2022 -0500
+
+    fix link
+
+[33mcommit ec1c9d896e2068c8f571c455f0cd0dc47623a365[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 16 16:30:10 2022 -0500
+
+    fix link
+
+[33mcommit 88cbc9193abd8e5c4526fa013d811c7cd811125d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Fri Dec 16 16:27:39 2022 -0500
+
+    fix link
+
+[33mcommit b0992121c318935c66d72c39f2337efc7c97a937[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 23:08:46 2022 -0500
+
+    add files
+
+[33mcommit 30fe788316ad55d014caeeffe389db3e88a9af0d[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 23:07:52 2022 -0500
+
+    change file names
+
+[33mcommit a09960a16ae99a7acfbe91455cc8ea18b4b286ec[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 22:49:27 2022 -0500
+
+    edit css
+
+[33mcommit e194b4e0779be9d8461534e7073ecf3f54e888fb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 20:12:01 2022 -0500
+
+    add link
+
+[33mcommit fb482274141f606feb2c2a78cc3de770fd3aa339[m
+Merge: 41efa07 ce412d3
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 19:42:45 2022 -0500
+
+    Merge branch 'dev'
+
+[33mcommit ce412d3b84398a64c55bb1906bcbc85c7f06b832[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 19:40:10 2022 -0500
+
+    add wrapper
+
+[33mcommit 41efa074c8b5e6fb4407a1469e816ad48f4124a8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 17:35:30 2022 -0500
+
+    edit gitignore
+
+[33mcommit f3ca2afda032f1d57ca3f903e55fb7c821178148[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 17:08:54 2022 -0500
+
+    edit gallery
+
+[33mcommit c172d95f7259e1edee53b26438898f862bad8d22[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 01:16:45 2022 -0500
+
+    fix typo
+
+[33mcommit 22d4f9ede9ae94ca760b8f3ae1309509dbb9a391[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 00:56:10 2022 -0500
+
+    add comics layout dir
+
+[33mcommit 1204d8108254dd5b6203b1a117a134440cb40839[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 15 00:46:55 2022 -0500
+
+    edit about page
+
+[33mcommit e192c0c2a1b1af1ea3bce4f99c81b5912e494850[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Dec 13 21:23:31 2022 -0500
+
+    edit header image
+
+[33mcommit 1e005ffcbd7f7722f39b8e8f878bfb5fedb8c20a[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Dec 13 21:10:07 2022 -0500
+
+    edit css
+
+[33mcommit 720f25292ce9d28d3ba46333030894eb868c6073[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Tue Dec 13 19:11:30 2022 -0500
+
+    edit about page
+
+[33mcommit 0798dee6a6d092a78e884add00cead0d8efbdfda[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 12 17:30:56 2022 -0500
+
+    add ko-fi link
+
+[33mcommit b9d15b2ecfb9fb3af28653dc29d11781c7cb18a8[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 12 17:24:34 2022 -0500
+
+    clean up files
+
+[33mcommit 4384824a01e480aabf216028b3aff37664691b72[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Mon Dec 12 17:18:36 2022 -0500
+
+    add commission terms of service
+
+[33mcommit b164d6d04f1554f374796be15840dfad57b71c8c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 11 15:45:20 2022 -0500
+
+    clean up logo files
+
+[33mcommit 99e9343773a91421c00dd8d148805d52b52c9acb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sun Dec 11 15:12:47 2022 -0500
+
+    add logo ideas
+
+[33mcommit 4200851f950a009bae0fdfb333583b57e3306bb4[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Sat Dec 10 17:34:42 2022 -0500
+
+    add footer
+
+[33mcommit 6687fafbbe88aeb2a312e6cb1d0f39e2eebb1d4f[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 23:34:12 2022 -0500
+
+    aaaa
+
+[33mcommit 0e7009272bfbbeb247ce21a38895c36cda62b12e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 23:30:10 2022 -0500
+
+    add logo
+
+[33mcommit c98ceff6a0fc9bf15382ddbf210bc01b9ac961cb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 18:34:20 2022 -0500
+
+    add image
+
+[33mcommit e74392860900b552c3a09e4584b096d9e7b75910[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 18:27:28 2022 -0500
+
+    add new iamges
+
+[33mcommit 3a15004e29d050e59cae88347a80222e14aa0272[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 16:25:22 2022 -0500
+
+    add fonts
+
+[33mcommit 3d784491de4520658c1553318d44b425eb126309[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Thu Dec 8 16:24:34 2022 -0500
+
+    clean up fonts
+
+[33mcommit 8162bc74b10fdd89dfe057f8b31d3c8c3000b53e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:49:30 2022 -0500
+
+    merge main
+
+[33mcommit e4d3801732589a316e4f0fafbb9e7a3b3ed5b3bb[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:45:27 2022 -0500
+
+    edit about
+
+[33mcommit 5cd09ace40071572e0097f0637940e046a43143c[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:11:31 2022 -0500
+
+    fix my bs
+
+[33mcommit ce8c6b71809b7947e563447da6b8e563e7efa71b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:05:44 2022 -0500
+
+    Revert "Revert "init""
+    
+    This reverts commit fbfa6a561633a9df7fc1ba012649648b19d25384.
+
+[33mcommit fbfa6a561633a9df7fc1ba012649648b19d25384[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:03:59 2022 -0500
+
+    Revert "init"
+    
+    This reverts commit bf40826a23aadfd13fc3531560a553da1fbea17e.
+
+[33mcommit 0e196a3bb828c4b23531a82a9a99221de6b3540b[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 17:03:48 2022 -0500
+
+    fuck
+
+[33mcommit bf40826a23aadfd13fc3531560a553da1fbea17e[m
+Author: amelie lavender <lavenderamelie@gmail.com>
+Date:   Wed Dec 7 16:33:23 2022 -0500
+
+    init
